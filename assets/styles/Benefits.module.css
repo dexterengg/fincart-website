@@ -1,0 +1,141 @@
+.benefitsection .stripsection {
+  display: flex;
+}
+
+.topStripeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  /* padding: 80px 0; */
+  box-shadow: 0px 0px 80px 1px #0057a633 inset;
+  clip-path: polygon(83% 0, 100% 50%, 84% 99%, 0% 100%, 0 53%, 0% 0%);
+}
+.topStripeBox1 {
+  width: 300px;
+
+  box-shadow: 0px 0px 80px 1px #0057a633 inset;
+  clip-path: polygon(83% 0, 100% 50%, 84% 99%, 0% 100%, 12% 52%, 0% 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topStripeBox2 {
+  width: 300px;
+
+  box-shadow: 0px 0px 80px 1px #0057a633 inset;
+  clip-path: polygon(83% 0, 100% 50%, 84% 99%, 0% 100%, 12% 52%, 0% 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topStripeBox3 {
+  width: 300px;
+
+  box-shadow: 0px 0px 80px 1px #0057a633 inset;
+  clip-path: polygon(83% 0, 100% 50%, 84% 99%, 0% 100%, 12% 52%, 0% 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topStripeBox4 {
+  width: 300px;
+
+  box-shadow: 0px 0px 80px 1px #0057a633 inset;
+  clip-path: polygon(83% 0, 100% 50%, 84% 99%, 0% 100%, 12% 52%, 0% 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topStripeBox5 {
+  width: 300px;
+
+  box-shadow: 0px 0px 80px 1px #0057a633 inset;
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 12% 52%, 0% 0%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefithead {
+  display: flex;
+  justify-content: center;
+}
+.benefithead h2 {
+  padding-bottom: 50px;
+}
+.outerAdvantage {
+  padding: 80px 0px;
+}
+
+.leftbecomebanner {
+  padding: 70px 0px;
+}
+.Rightbecomebanner {
+  padding: 70px 0px;
+  padding: 70px 0px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.becomehaeder h1 {
+  padding-bottom: 40px;
+  font-size: 42px;
+  font-family: "poppins";
+  color: #000;
+  line-height: 50px;
+}
+.becomepoint ul {
+  padding-bottom: 30px;
+}
+.becomepoint ul li {
+  color: #8a8a9b;
+  font-family: "poppins";
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.button {
+  background-color: #0057a6 !important;
+  margin: auto;
+  width: 200px;
+  height: 43px;
+  align-items: center;
+}
+.button:focus {
+  box-shadow: none !important;
+}
+
+.outerAdvantag .color {
+  position: absolute;
+}
+
+.outerAdvantag .color {
+  /* width: 500px; */
+  left: -4%;
+  top: 39%;
+}
+.outerAdvantag {
+  position: relative;
+}
+
+.topStripeBox img {
+  width: 80px !important;
+}
+
+.topStripeBox1 img {
+  width: 190px !important;
+}
+.topStripeBox2 img {
+  width: 50px !important;
+}
+.topStripeBox3 img {
+  width: 60px !important;
+}
+.topStripeBox4 img {
+  width: 50px !important;
+}
+.topStripeBox5 img {
+  width: 50px !important;
+
+}

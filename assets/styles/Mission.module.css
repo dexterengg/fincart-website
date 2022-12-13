@@ -1,0 +1,65 @@
+.maindiv{
+    background-color: #E9F4FF;
+    padding-top: 6rem;
+}
+.Missioncontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+ 
+.Missioncontent h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "SackersGothicStdMedium";
+    color: #0055A5;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 0.8rem;
+
+}
+.Missioncontent p{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-right: 4rem;
+    padding-left: 2rem;
+}
+.borderRight{
+border-right: 1px solid #0055A5;
+height: 8rem;
+}
+/* media query start */
+@media (max-width: 991px) {
+    .borderRight{
+        border-right: 1px solid #0055A5;
+        height: 11rem;
+        }
+}
+@media (max-width: 767px) {
+
+    .maindiv{
+        padding-top: 6rem;
+    }
+    .Missioncontent p{
+        font-size: 0.9rem;
+    }
+    .Missioncontent h3 {
+        font-size: 24px;
+    }
+    
+    .borderRight{
+   border-right: none;
+        }
+}
+
+/* media query end */

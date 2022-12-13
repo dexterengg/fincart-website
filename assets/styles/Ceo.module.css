@@ -1,0 +1,104 @@
+.imgcontent span img {
+    height: 30rem !important;
+
+}
+
+.maindiv {
+    padding-top: 3rem;
+}
+
+.maindivHeading h3 {
+    font-family: "SackersGothicStdMedium";
+    color: #0055A5;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-top: 10rem;
+    padding-bottom: 0.7rem;
+}
+
+.maindivsubheading p {
+    color: #707070;
+    font-family: "Poppins";
+    font-size: 1rem !important;
+    padding-bottom: 0.6rem;
+    font-weight: 300;
+  
+
+}
+
+.mainpara {
+    font-family: "Poppins";
+    color: #707070;
+    line-height: 1.8rem;
+    padding-bottom: 9rem;
+}
+
+.mainpara a {
+    color: #0055a5 !important;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.maindiv {
+    background-color: #FAFCFF;
+    background-repeat: no-repeat;
+    box-shadow: -6px 6px 8px #70707033;
+    /* width: 90%;
+    margin-bottom: 0px;
+    z-index: 999;
+    position: absolute; */
+    padding-bottom: 5rem;
+}
+
+/* media query start */
+@media (max-width: 991px) {
+    .maindiv {
+
+        width: 100%;
+
+    }
+
+    .imgcontent {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .maindivHeading h3 {
+
+        padding-top: 0rem;
+
+    }
+
+    .maindivsubheading {
+        font-size: 22px !important;
+    }
+
+    .maindivHeading {
+        padding-top: 1rem;
+        font-size: 24px !important;
+    }
+
+    .mainpara {
+        font-size: 0.9rem;
+        padding-bottom: 2rem;
+
+    }
+}
+
+@media (max-width: 414px) {
+    .imgcontent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .maindivHeading h3 {
+   
+        padding-top: 3rem;
+}
+}
+
+/* media query end */

@@ -1,0 +1,160 @@
+.mainhow {
+    display: flex;
+    align-items: center;
+  }
+  .arrowbutton {
+    background-color: #FFFFFF;
+    /* width: 50px; */
+    /* height: 80px; */
+    padding: 16px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .line {
+    width: 40px;
+    background-color: #ffffff;
+    height: 1px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .arwimg {
+    display: flex;
+    align-items: center;
+    width: 25px;
+  }
+  .arrowtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrowtext p {
+    font-family: "SackersGothicStdMedium";
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+  .mutualbtnhover{
+   
+    font-size: 13px;
+    color: #0055A5;
+    letter-spacing: 0px;
+    line-height: 5px;
+    background: 0 0;
+    padding-left: 128px;
+    position: relative;
+    cursor: pointer;
+    font-family: "SackersGothicStdMedium";
+  }
+  
+  .mutualbtnhover:before{
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: 7px 12px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #0055A5;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: url("../../img/footer/Group\ 2520.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  }
+  .mutualbtnhover:after{
+  width: 30px;
+  height: 0;
+  content: "";
+  position: absolute;
+  left: 75px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-top: 1px solid #0055A5;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  }
+  .mutualbtnhover:hover {
+  padding-left: 100px;
+  color: #0055A5;
+  -webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+  }
+  .mutualbtnhover:focus:before, .mutualbtnhover:hover:before {
+  -webkit-transform: translateY(-50%) scale(1.2);
+  transform: translateY(-50%) scale(1.2);
+
+  }
+  .mutualbtnhover:focus:after, .mutualbtnhover:hover:after {
+  width: 10px;
+  }
+  .arrowbutton {
+    width: 50px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    width: 40px;
+    background-color: #0055A5;
+    height: 1px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .arwimg {
+    display: flex;
+    align-items: center;
+  }
+  .arrowtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrowtext p {
+    font-family: "SackersGothicStdMedium";
+    font-size: 1rem;
+    color: #0055A5;
+    padding: 0;
+    margin: 0;
+    text-transform: lowercase;
+  }
+  @media (max-width: 767px) {
+      
+  .mutualbtnhover:before{
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-size: 7px 12px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #0055A5;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-image: url("../../img/footer/Group\ 2520.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+    .mutualbtnhover{
+      margin-left: -2rem;
+    }
+    .mutualbtnhover{
+      padding-left: 104px;
+    }
+    .mutualbtnhover:after{
+      left: 60px;
+    }
+
+  }

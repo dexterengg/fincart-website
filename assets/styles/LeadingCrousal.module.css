@@ -1,0 +1,38 @@
+.QualifiedTeamMain {
+  padding: 3rem 0;
+
+}
+.QualifiedTeamHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+}
+.teamcarouselUserDesc h3 {
+  color: #78c5dc;
+  font-size: 2rem;
+}
+.teamcarouselUserDesc h4 {
+  color: #2f261d;
+  font-size: 1.5rem;
+}
+.teamcarouselUserDesc p {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 5rem;
+}
+.teamcarouselUserDesc img{
+  width: 100% !important;
+}
+.QualifiedTeamMain{
+    background-color: #0055A5;
+    padding-top: 5rem;
+
+}
+
+
+.video{
+  height: 24rem !important;
+  width: 24rem !important;
+}

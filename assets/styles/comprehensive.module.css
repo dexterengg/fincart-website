@@ -1,0 +1,249 @@
+.maindivsection {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0055a5;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+.section h2 {
+  font-family: SackersGothicStdMedium;
+  font-size: 3rem;
+  line-height: 4.3rem;
+  font-weight: 500;
+  color: #fff;
+}
+.section p {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
+.contentPadding {
+  padding-left: 3rem;
+}
+.beReadyImgs {
+  width: 50px !important ;
+}
+.iconsvg span img{
+  width: 3.5rem !important;
+}
+.borderBottom .iconsvg {
+  background-color: #a5d3ff;
+  width: 6rem !important;
+  height: 6rem !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.borderBottom {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 7px 0px;
+}
+.borderBottom:nth-child(6) {
+  border-bottom: none !important;
+  margin-bottom: 25px;
+}
+.beReadyContent h3 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-family: "SackersGothicStdlight" !important;
+  text-transform: lowercase;
+}
+.beReadyContent p {
+  color: #a5d3ff;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.callbut {
+  background-color: #0055a5;
+}
+.solImage {
+  position: relative;
+
+}
+.rightside {
+  display: flex;
+  width: 100%;
+  height: 100.8%;
+  align-items: flex-end;
+  justify-content: center;
+}
+.solImage{
+  object-fit: contain;
+}
+/* .rightside .solImage img{
+  width: 700px !important;
+  height: 470px !important;
+} */
+/* .rightside img {
+ width: 700px;
+ height: ;
+  
+} */
+.bottomButtonsection h3 {
+  justify-content: center;
+  align-items: center;
+  color: #e9f4ff;
+  font-family: "SackersGothicStdMedium" !important;
+  align-items: left;
+  font-size: 1.5rem;
+  margin-right: 70px;
+}
+.bottomButtonsection {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: yellow;
+  border-radius: 5rem;
+  padding-bottom: 2rem;
+}
+.buttonMainCom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonMainCom button {
+  outline: none;
+  color: #0055a5;
+  font-size: 1rem;
+  border-radius: 15rem;
+  background-color: #fabe3c;
+  padding: 0.5rem 1.5rem;
+  border: none;
+}
+
+.buttonMainCom button:focus {
+  outline: none !important;
+  border: none;
+}
+
+.buttonMainCom button:active {
+  outline: none !important;
+  border: none;
+}
+.buttonMainCom button:first-child {
+  margin-right: 1rem;
+}
+@media(max-width:1560px) {}
+
+@media(max-width:1367px) {
+  .buttonMainCom button {
+    padding: 0.2rem 1.4rem;
+}
+.bottomButtonsection h3 {
+  margin-right: 29px;
+  margin-left: -4rem;
+}
+}
+
+@media(max-width:1199px) {
+  .bottomButtonsection h3 {
+    margin-right: 7px;
+    /* margin-left: -6rem; */
+  }
+
+
+
+}
+
+@media(max-width:991px) {
+  .borderBottom .iconsvg {
+   width: 100%;
+  } 
+    
+}
+
+@media(max-width:767px) {
+ 
+  /* .rightside {
+    height: 100.7%;
+  } */
+ 
+  .borderBottom:nth-child(6) {
+    margin-bottom: 0px;
+  }
+  .bottomButtonsection {
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+  }
+  .bottomButtonsection h3 {
+    justify-content: center;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .borderBottom .iconsvg {
+    width: 6rem !important;
+    height: 6rem !important;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+   } 
+   .section h2 {
+    font-size: 24px;
+    text-align: center;
+ 
+  }
+  .section p {
+    font-size: 22px;
+  }
+  .section p {
+  padding: 1rem 1rem;
+  text-align: center;
+  }
+  .beReadyContent h3 {
+    font-size: 22px;
+   text-align: center;
+  }
+  .beReadyContent p {
+   text-align: center;
+   font-size: 0.9rem;
+   margin: 15px 0px;
+  }
+  .contentPadding {
+    padding-left: 0rem;
+    padding: 0rem 2rem;
+  }
+}
+
+@media(max-width:600px) {
+ 
+}
+
+@media(max-width:414px) {
+  .section h2 {
+    
+    text-align: center;
+    line-height: 2.5rem;
+ 
+  }
+  .section {
+  
+    padding-bottom: 0rem;
+  }
+}
+@media (max-width: 1000px){
+   
+  }

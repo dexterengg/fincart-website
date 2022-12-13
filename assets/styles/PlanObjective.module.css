@@ -1,0 +1,250 @@
+.maindivsection {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0055a5;
+    padding-top: 3rem;
+  }
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .section h2 {
+    font-family: "SackersGothicStdMedium";
+    font-size: 3rem;
+    line-height: 4.3rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+  }
+  .section p {
+    font-family: Poppins;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 1rem;
+  }
+  .contentPadding {
+    padding-left: 3rem;
+  }
+  .beReadyImgs {
+    width: 50px;
+  }
+  .borderBottom .iconsvg {
+    background-color: #a5d3ff;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .borderBottom {
+    border-bottom: 1px solid #A5D3FF;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 7px 0px;
+  }
+  .borderBottom:nth-child(6) {
+    border-bottom: none !important;
+    margin-bottom: 25px;
+  }
+  .beReadyContent{
+    padding: 10px 0px;
+  }
+  .beReadyContent h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-family: "SackersGothicStdlight" !important;
+  }
+  .beReadyContent p {
+    color: #a5d3ff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .callbut {
+    background-color: #0055a5;
+  }
+  .solImage {
+    position: relative;
+  }
+  .rightside {
+  
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .solImage img {
+    display: flex;
+    /* position: absolute; */
+    text-align: end;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+   
+  }
+  .planimg{
+    margin-bottom: -4rem !important;
+  }
+  .calcisection h3{
+    font-family: SackersGothicStdlight;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 40px;
+    border-bottom: 1px solid #A5D3FF;
+    padding-bottom: 15px;
+    color: #A5D3FF;
+  }
+  .calcisection{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+  }
+.calcbtn{
+    display: flex;
+    justify-content: left;
+    padding-left: 143px;
+    margin-top: 36px;
+}
+
+.calcbtns{
+  font-family: SackersGothicStdlight!important;
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5rem;
+  background-color: #A5D3FF!important;
+  color: #A5D3FF;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 1px solid #fff;
+  overflow: hidden;
+  transform: scale(1.0);
+
+}
+
+.calcbtns::before{
+content: 'Calculate';
+background-color: #0055A5;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: 10;
+border-radius: 20px; 
+transition: all 1s;
+border: 0px solid #fff;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+
+
+.calcbtns::before{
+transform: translateY(-0%);
+color: #fff;
+}
+
+
+
+
+
+.calcbtns:hover::before{
+transform: translate(0%, 100%);
+transition: all 1s;
+}
+
+.calcbtns:hover{
+color: #fff;
+transition: all 1s;
+transform: scale(1.1);
+}
+
+
+@media(max-width:1560px) {}
+
+@media(max-width:1367px) {
+  
+}
+
+@media(max-width:1199px) {
+ 
+  .beReadyContent h3 {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+  }
+  .beReadyContent p {
+    margin-left: 2rem;
+  }
+
+
+}
+
+@media(max-width:991px) {
+
+    
+}
+
+@media(max-width:767px) {
+
+  .planimg{
+    margin-bottom: 1rem !important;
+  }
+  .section h2 {
+    font-size: 24px;
+    line-height: 2.4rem;
+   
+  }
+  .borderBottom .iconsvg {
+    width: 6rem;
+    height: 6rem;
+  margin: auto;
+  margin-bottom: 15px;
+    margin-top: 18px;
+  }
+  .beReadyContent h3 {
+    font-size: 22px;
+   text-align: center;
+   margin-bottom: 10px;
+  }
+  .beReadyContent p {
+    font-size: 0.9rem;
+   text-align: center;
+   
+  }
+  .contentPadding {
+   padding: 0rem 3rem;
+  }
+  .calcisection h3{
+    font-size:22px;
+   
+  }
+}
+
+@media(max-width:600px) {
+ 
+}
+
+@media(max-width:414px) {
+
+}
+@media (max-width: 1000px){
+   
+  }
+  

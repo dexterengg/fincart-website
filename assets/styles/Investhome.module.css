@@ -1,0 +1,318 @@
+.homemain {
+  width: 100%;
+  height: calc(100vh - 71px);
+  background-image: url("../img/Plan/invest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cursorPointer{
+  cursor: pointer;
+}
+.maindivHeading h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  align-content: center;
+  align-items: left;
+  color: #fafafa;
+  font-weight: 300;
+}
+.maindivpara {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  text-align: left;
+  color: #fafafa;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.mainhow {
+  display: flex;
+  align-items: center;
+}
+.arrowbutton {
+  width: 60px;
+  /* height: 80px; */
+}
+.line {
+  width: 50px;
+  background-color: #fff;
+  height: 2px;
+  /* padding: 0px 50px; */
+  margin: 0px 20px;
+}
+.arwimg {
+  display: flex;
+  align-items: center;
+}
+.arrowtext p {
+  font-family: SackersGothicStdMedium;
+  font-size: 16px;
+  color: #fafafa;
+}
+.underlineheading {
+  padding-top: 2rem;
+  color: #fafafa;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+/* ***************************************** */
+.maindivheading h2 {
+  font-family: "SackersGothicStdMedium";
+  color: #FAFAFA;
+  font-size: 2.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 14px;
+  /* padding-top: 12rem; */
+}
+.crossbtn{
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  cursor: pointer;
+}
+.maindiv{
+    background-image: url("../img/Protect/Mask\ Group\ 2708.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.maindivheading p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #FAFAFA;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+}
+.submit button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 260px;
+  height: 55px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  color: #a5d3ff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 2px solid #0055a5;
+  overflow: hidden;
+}
+ .submit button::before {
+  content: "Submit";
+  background-color: #0055a5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+} 
+.submit button::before {
+  transform: translateY(-0%);
+}
+
+.submit button:hover::before {
+  transform: translate(0%, 100%);
+  transition: all 1s;
+}
+
+.submit button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+}
+.name {
+    font-family: "Poppins", sans-serif;
+    padding: 1rem;
+    color: #707070;
+  }
+  .investeffect{
+ 
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 2px;
+    background: 0 0;
+    padding-left: 128px;
+    position: relative;
+    cursor: pointer;
+    font-family: "SackersGothicStdMedium";
+  }
+  
+  .investeffect:before{
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: 7px 12px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #0055a5;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: url("../img/footer/Group\ 2520.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  }
+  .investeffect:after{
+  width: 30px;
+  height: 0;
+  content: "";
+  position: absolute;
+  left: 75px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-top: 1px solid #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  }
+  .investeffect:hover {
+  padding-left: 100px;
+  color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+  }
+  .investeffect:focus:before, .investeffect:hover:before {
+  -webkit-transform: translateY(-50%) scale(1.2);
+  transform: translateY(-50%) scale(1.2);
+  color: #ffffff;
+  }
+  .investeffect:focus:after, .investeffect:hover:after {
+  width: 10px;
+  }
+/* ******************************************** */
+@media only screen and (max-width: 1499px) {
+  .banhead{
+padding-left: 6rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .maindivHeading h3 {
+    font-size: 2rem;
+  }
+  .banhead{
+    padding-left: 0rem;
+      }
+}
+
+@media only screen and (max-width: 1367px) {
+  .banhead{
+    padding-left: 0rem;
+      }
+}
+
+@media only screen and (max-width: 767px) {
+  .banhead{
+    padding-left: 0rem;
+      }
+  .maindivpara{
+    font-size: 1rem;
+  }
+  .investeffect:before{
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-size: 7px 12px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #0055a5;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-image: url("../img/footer/Group\ 2520.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+    .investeffect{
+ 
+      font-size: 13px;
+      color: #fff;
+      letter-spacing: 2px;
+      background: 0 0;
+      padding-left: 104px;
+      position: relative;
+      cursor: pointer;
+      font-family: "SackersGothicStdMedium";
+    }
+    .investeffect:after{
+      width: 30px;
+      height: 0;
+      content: "";
+      position: absolute;
+      left: 60px;
+    
+    }
+  .maindivHeading h3 {
+    font-size: 24px;
+  }
+ .underlineheading{
+  font-size: 1rem;
+ }
+}
+@media only screen and (max-width: 599px) {
+
+  .banhead{
+    padding-left: 0rem;
+      }
+
+}
+@media only screen and (max-width: 441px) {
+  .banhead{
+    padding-left: 0rem;
+      }
+}
+@media only screen and (max-width: 375px) {
+  .banhead{
+    padding-left: 0rem;
+      }
+}
+@media only screen and (max-width: 1024px) {
+  .homemain {
+    height: 70vh;
+  }
+}
+
+

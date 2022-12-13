@@ -1,0 +1,26 @@
+.mainhow {
+  display: flex;
+  align-items: center;
+}
+.arrowbutton {
+  width: 65px;
+  /* background: #0055A5; */
+  padding: 15px;
+  border-radius: 50%;
+  outline: none;
+}
+.line {
+    width: 50px;
+    /* background-color: #0055A5; */
+    height: 2px;
+    margin: 0px 20px;
+}
+.arwimg {
+  display: flex;
+  align-items: center;
+}
+.arrowtext p{
+    font-family: SackersGothicStdMedium;
+    font-size: 16px;
+    /* color: #fff; */
+}

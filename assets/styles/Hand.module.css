@@ -1,0 +1,50 @@
+.maindiv h2 {
+    font-family: "SackersGothicStdMedium";
+    font-weight: 400;
+    color: #0055a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+  }
+  .maindiv p {
+    font-family: "Poppins", sans-serif;
+    color: #707070;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+  .handcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .borderRight{
+    border-right: 1px solid  #0055A5;
+    text-align: center;
+
+  }
+  .handcontent h3 {
+    color: #0055a5;
+    font-family: "SackersGothicStdlight";
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    font-size: 1.6rem;
+  }
+  .handcontent p{
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-bottom: 8rem;
+  }
+ .handcontent span img{
+    width: 10rem !important;
+ }

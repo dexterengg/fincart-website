@@ -1,0 +1,115 @@
+.maindiv{
+    margin-top: 3rem;
+}
+.maindivheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.maindivheading h2{
+    color: #0055A5;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    font-family: SackersGothicStdMedium;
+}
+.achievementCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 2px solid #0055A5;
+    margin-bottom: 10px;
+}
+.achievementCol h4{
+    color: #0055A5;
+    font-size: 3rem;
+    font-family: "SackersGothicStdlight";
+    line-height: 40px;
+}
+.achievementCol p{
+    color: #707070;
+    justify-content: center;
+    align-items: center;
+    font-family: "SackersGothicStdlight";
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+.achievementCol:nth-child(4) {
+    border-right: none;
+}
+.spantext{
+    font-size: 1rem;
+    color: #707070;
+margin: 1rem;
+}
+
+@media(max-width:1560px) {}
+
+@media(max-width:1367px) {
+    .spantext{
+        font-size: 12px;
+}
+}
+
+@media(max-width:1199px) {
+ 
+    .achievementCol p{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media(max-width:991px) {
+
+    .maindiv{
+        margin-top: 0rem;
+    }
+    .maindivheading h2{
+        font-size: 2rem;
+    }
+    
+    .achievementCol p{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media(max-width:767px) {
+    .maindiv{
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .achievementCol {
+      
+        border-right: 0px solid #0055A5;
+    }
+    .maindivheading h2{
+       
+        font-size: 24px;
+       margin-bottom: 2.3rem;
+    }
+    .achievementCol h4{
+      
+        font-size: 22px;
+       
+    }
+    .achievementCol p{
+    
+        font-size: 22px;
+        
+    }
+}
+
+@media(max-width:600px) {
+ 
+}
+
+
+@media (max-width: 1000px){
+   
+  }

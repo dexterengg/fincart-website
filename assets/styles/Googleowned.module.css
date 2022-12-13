@@ -1,0 +1,100 @@
+.outerAdvanta {
+    background-image: url("../img/home/homebanner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+  
+  }
+
+  .Faqhead {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    font-family: "SackersGothicStdMedium" !important;
+    color: #0055A5;
+    transform: lowercase;
+    font-size: 3rem;
+    padding: -3rem;
+  }
+  .faqsubhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #0055A5;
+    font-family: "SackersGothicStdBold" !important;
+    transform: lowercase !important;
+    margin-bottom: 30px;
+  }
+  .outerAdvanta .color {
+    position: relative;
+  }
+  .outerAdvanta .color {
+    top: 49%;
+    left: -31%;
+    width: 80%;
+  }
+  .InnearHome {
+    width: 100%;
+    background-color: #FAFCFF;
+    padding: 4rem;
+    padding-top: 2rem;
+    margin-top: 5rem;
+    margin-left: 15rem;
+  }
+
+  @media(max-width:1560px) {}
+
+@media(max-width:1367px) {
+  
+}
+
+@media(max-width:1199px) {
+ .outerAdvanta{
+  padding-bottom: 0px;
+ }
+  .InnearHome {
+
+    padding: 4rem 2rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+
+
+}
+
+@media(max-width:991px) {
+
+    
+}
+
+@media(max-width:767px) {
+  .Faqhead {
+    font-size: 24px !important;
+  }
+
+}
+
+@media(max-width:600px) {
+  .InnearHome {
+text-align: center;
+    padding: 4rem 0rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+@media(max-width:414px) {
+ 
+}
+@media (max-width: 1000px){
+   
+  }

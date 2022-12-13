@@ -1,0 +1,422 @@
+.QualifiedTeamMain {
+    padding: 3rem 0;
+  
+  }
+  .QualifiedTeamHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .teamcarouselUserDesc h3 {
+    color: #78c5dc;
+    font-size: 2rem;
+  }
+  .teamcarouselUserDesc h4 {
+    color: #2f261d;
+    font-size: 1.5rem;
+  }
+  .teamcarouselUserDesc p {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+  .teamcarouselUserDesc img{
+    width: 100% !important;
+  }
+  .QualifiedTeamMain{
+      background-color: #3073b2;
+      padding-top: 5rem;
+  
+  }
+  .mainhow {
+    display: flex;
+    align-items: center;
+  }
+  .arrowbutton {
+  background: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  outline: none;
+  }
+  .line {
+      width: 50px;
+      background-color: white;
+      height: 2px;
+      /* padding: 0px 50px; */
+      margin: 0px 20px;
+  }
+  .arwimg {
+    display: flex;
+    align-items: center;
+    width: 25px;
+  }
+  .arrowtext p{
+    font-family: SackersGothicStdMedium;
+    font-size: 16px;
+    color: #fff;
+    text-transform: lowercase;
+  }
+  .teamhovereffect{
+ 
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 13px;
+    text-transform: uppercase;
+    background: 0 0;
+    padding-left: 128px;
+    position: relative;
+    cursor: pointer;
+    font-family: "SackersGothicStdMedium";
+  }
+  
+  .teamhovereffect:before{
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: 7px 12px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #fff;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: url("../img/footer/Group\ 3074.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  }
+  .teamhovereffect:after{
+  width: 30px;
+  height: 0;
+  content: "";
+  position: absolute;
+  left: 75px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-top: 1px solid #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  }
+  .teamhovereffect:hover {
+  padding-left: 100px;
+  color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out
+  }
+  .teamhovereffect:focus:before, .teamhovereffect:hover:before {
+  -webkit-transform: translateY(-50%) scale(1.2);
+  transform: translateY(-50%) scale(1.2);
+  color: #ffffff;
+  }
+  .teamhovereffect:focus:after, .teamhovereffect:hover:after {
+  width: 10px;
+  }
+@media only screen and (max-width: 1400px) {
+  .btnsection{
+    margin: 1rem;
+  }
+
+ }
+ @media only screen and (max-width: 1400px) {
+  .teamhovereffect:before{
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-size: 7px 12px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-image: url("../img/footer/Group\ 3074.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+ }
+ @media only screen and (max-width: 767px) {
+ .teamhovereffect{
+  padding-left: 104px;
+}
+.teamhovereffect:after{
+  left: 60px;
+ }
+}
+/* media query end */
+.maindiv{
+  background-color: #0055A5;
+  padding-top: 7rem;
+  height: auto;
+  width: 100%;
+}
+.mainheading h3{
+  color: #FFFFFF;
+  font-family: "SackersGothicStdMedium";
+  text-align: left;
+  padding-bottom: 1rem;
+}
+.mainheading p{
+  font-family: "Poppins", sans-serif;
+  color: #A5D3FF;
+  text-align: left;
+  padding-bottom: 4rem;
+
+}
+.btnsection{
+  padding-bottom: 4rem;
+}
+.maindiv {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 5rem;
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  margin-top: 4rem;
+}
+.maindivheading h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0055a5;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #0055a5;
+  letter-spacing: 1px;
+}
+.maindivheading p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #707070;
+  font-size: 21px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.watchvideo {
+
+  /* height: 50vh; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e9f4ff;
+  border-radius: 7px;
+  margin-top: 2rem; */
+  position: relative;
+  cursor: pointer;
+}
+/* .watchvideo img{
+  width: 100%;
+  height: 100%;
+} */
+.video{
+   width: 100%;
+  height: 100%;
+}
+/* .watchvideo img {
+  width: 100px !important;
+  height: 100px !important;
+} */
+.watchvideo p {
+  color: #0055a5;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  font-family: SackersGothicStdMedium;
+  position: absolute;
+  top: 66%;
+  left: 36%;
+}
+
+
+@media (max-width: 1560px) {
+  /* .watchvideo {
+    width: 51%;
+    height: 37vh;
+} */
+}
+
+@media (max-width: 1367px) {
+  /* .watchvideo {
+    width: 62%;
+    height: 43vh;
+} */
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+  .maindiv {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .videoplaybutton:before {
+    top: 36% !important;
+  }
+  .videoplaybutton:after {
+    left: 46% !important;
+    top: 35% !important;
+    width: 60px !important;
+    height: 60px !important;
+    }
+    .videoplaybutton span {
+      border-left: 22px solid #fff !important;
+      border-top: 12px solid transparent !important;
+      border-bottom: 12px solid transparent !important;
+      }
+      .watchvideo p {
+        font-size: 1rem;
+        top: 67%;
+        left: 21%;
+      }
+  .maindiv {
+    margin-top: 0rem;
+  }
+  /* .watchvideo img {
+    width: 60px !important;
+    height: 60px !important;
+  } */
+  .maindivheading p {
+    text-align: center;
+    font-size: 22px;
+  }
+  .maindivheading h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .maindiv {
+    padding: 5rem 2rem;
+  }
+  .watchvideo {
+    height: auto;
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .watchvideo p {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .maindiv {
+    padding: 5rem 0rem;
+  }
+}
+
+@media (max-width: 414px) {
+
+
+}
+@media (max-width: 1000px) {
+}
+.videoplaybutton{
+position: absolute;
+z-index: 10;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+box-sizing: content-box;
+display: block;
+width: 32px;
+height: 44px;
+border-radius: 50%;
+padding: 18px 20px 18px 28px;
+}
+
+.videoplaybutton:before {
+content: "";
+position: absolute;
+z-index: 0;
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%);
+display: block;
+width: 80px;
+height: 80px;
+background: #0055A5;
+border-radius: 50%;
+animation: pulse-border 1500ms ease-out infinite;
+}
+
+.videoplaybutton:after {
+content: "";
+position: absolute;
+z-index: 1;
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%);
+display: block;
+width: 80px;
+height: 80px;
+background: #0055A5;
+border-radius: 50%;
+transition: all 200ms;
+}
+
+.videoplaybutton:hover:after {
+background-color: darken(#0055A5, 10%);
+}
+
+.videoplaybutton img {
+position: relative;
+z-index: 3;
+max-width: 100%;
+width: auto;
+height: auto;
+}
+
+.videoplaybutton span {
+display: block;
+position: relative;
+z-index: 3;
+width: 0;
+height: 0;
+border-left: 32px solid #fff;
+border-top: 22px solid transparent;
+border-bottom: 22px solid transparent;
+}
+
+@keyframes pulse-border {
+0% {
+  transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+  opacity: 1;
+}
+100% {
+  transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+  opacity: 0;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .btnsection{
+    padding-bottom: 0rem;
+  }
+  .teamhovereffect{
+    letter-spacing: 0px;
+ 
+  }
+}
+
+   
+  

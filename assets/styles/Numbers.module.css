@@ -1,0 +1,120 @@
+.maindiv {
+  background-image: url("../img/home/BaseBox\ Dark\ S03@2x.png");
+  width: 100%;
+  height: 44vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 80px;
+}
+.maindivHeading {
+  width: 100%;
+  background-color: #0055a5;
+  padding-top: 1rem;
+  margin-top: -7rem;
+  padding-bottom: 1.5rem;
+  margin-left: 10rem;
+}
+.maindivsubheading h3 {
+  color: #ffffff;
+    font-family: "SackersGothicStdMedium";
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.mainpara p {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    color: #E9F0F7;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+  }
+  .numbercontent h4 {
+    font-family: "SackersGothicStdlight";
+    font-weight: 300;
+    color:#A5D3FF;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .numbercontent p{
+    font-family: "SackersGothicStdlight";
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .spanNameSize{
+    font-size: 0.8rem;
+margin: 10px;
+  }
+  .borderRight{
+    border-right: 1px solid #E9F4FF;
+  }
+
+  /* media query start */
+  @media(max-width:1199px) {
+    .mainpara p {
+      font-size: 1rem;
+    }
+    .spanNameSize{
+      font-size: 0.6rem;
+    }
+  }
+ 
+  @media(max-width:991px) {
+    .borderRight{
+      border: none;
+    }
+    .maindivHeading {
+    
+      margin-left: 0rem;
+    }
+  }
+  @media(max-width:767px) {
+    .maindiv {
+      height: auto;
+      padding-bottom: 0px;
+    }
+    .maindivsubheading h3 {
+font-size: 1.8rem;
+  }
+  .mainpara p {
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+  }
+  .numbercontent h4{
+    font-size: 22px;
+  }
+  .numbercontent p{
+    font-size: 22px;
+  }
+}
+@media(max-width:767px) {
+  .maindivsubheading h3 {
+    font-size: 24px;
+    margin-top: 1rem;
+      }
+}
+@media(max-width:414px) {
+  .maindivHeading {
+    margin-top: 0rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .numbercontent h4 {
+   
+    font-size: 1.2rem;
+  }
+}
+  /* media query end  */

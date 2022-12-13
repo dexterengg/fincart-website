@@ -1,0 +1,60 @@
+.maindiv{
+    background-color: #E9F4FF;
+}
+.maindivheading h2 {
+    font-family: "SackersGothicStdMedium";
+    text-align: center;
+    font-size: 2.2rem;
+    color: #0055A5;
+    padding-top: 1.5rem;
+}
+/* .goalcontent span img{ */
+    /* height: 5rem !important; */
+ /* } */
+ /* .goalcontent{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+ } */
+ .maindivheading p{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    color: #707070;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+
+ }
+/* media query start */
+
+@media only screen and (max-width: 1199px) {
+        /* .goalcontent{
+            padding: 2rem;
+         } */
+}
+@media only screen and (max-width: 767px) {
+    .maindivheading h2 {
+        font-size: 24px;
+    }
+    .maindivheading p{
+        font-size: 22px;
+    }
+    /* .goalcontent{
+        width: 25%;
+        height: 25%;
+    } */
+}
+@media only screen and (max-width: 599px) {
+
+}
+@media only screen and (max-width: 599px) {
+  
+}
+
+
+
+
+/* media query end */

@@ -1,0 +1,175 @@
+.maindiv {
+  background-image: url("../img/home/Downtown2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 80px;
+}
+.maindivHeading {
+  width: 100%;
+  background-color: #e9f4ff;
+  padding-top: 1rem;
+  margin-top: -4rem;
+  margin-left: 15rem;
+}
+.maindivsubheading h2 {
+  font-family: "Sackers Gothic Std, Medium";
+  color: #0055a5;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  padding: 5px;
+}
+.maindivsubheading p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #707070;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.Goalbasedcontent h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "SackersGothicStdBold";
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0055a5;
+  margin-left: 6rem;
+}
+.mainhow {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.arrowbutton {
+  width: 60px;
+  /* height: 80px; */
+}
+.line {
+  width: 50px;
+  background-color: #0055a5;
+  height: 2px;
+  /* padding: 0px 50px; */
+  margin: 0px 20px;
+}
+.arwimg {
+  display: flex;
+  align-items: center;
+}
+.callheading {
+  font-family: "SackersGothicStdMedium";
+  font-size: 16px;
+  color: #0055a5 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bordercontent {
+  width: 2px;
+  height: 4rem;
+  border-right: 1px solid #0055a5;
+}
+.marginButtonTop {
+  margin-top: 2rem;
+}
+.marginButtonTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem;
+}
+.imgcontent {
+  text-align: center;
+}
+.callheading {
+  color: #0055a5;
+}
+
+/* media query start */
+@media only screen and (max-width: 1199px) {
+  .Goalbasedcontent h3 {
+    margin-left: 14px;
+    text-align: center;
+  }
+  .Goalbasedcontent {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+
+  .maindiv {
+background-image: none !important;
+padding-bottom: 0px;
+  }
+  .maindivsubheading p {
+    font-size: 0.9rem;
+  }
+
+  .maindivsubheading h2 {
+    margin-top: 1rem;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .Goalbasedcontent h3 {
+    font-size: 22px;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 7px;
+    margin-left: 0px;
+    margin-top: 0.7rem;
+  }
+ 
+  .maindivHeading {
+    margin-left: 0rem;
+  }
+  .maindivHeading {
+    margin-top: -2rem;
+  }
+  .bordercontent {
+    width: 0px;
+    height: 0rem;
+    border-right: hidden;
+  }
+  .Goalbasedcontent {
+    text-align: center;
+  }
+  .imgcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Goalbasedcontent {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+}
+@media only screen and (max-width: 414px) {
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .Goalbasedcontent h3 {
+
+    font-size: 0.8rem;
+
+  }
+}
+/* media query end */

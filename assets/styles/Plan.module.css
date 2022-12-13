@@ -1,0 +1,436 @@
+.maindiv {
+  display: flex;
+  color: #0055a5;
+  justify-content: center;
+  text-align: left;
+  padding: 5px;
+  margin-left: 25px;
+  padding-left: 75px;
+}
+
+.educationtext{
+  font-size: 1rem;
+  color: #0055a5;
+}
+
+.plananimation {
+  font-size: 13px;
+  color: #0055a5;
+  letter-spacing: 2px;
+  line-height: 13px;
+  text-transform: uppercase;
+  background: 0 0;
+  padding-left: 128px;
+  position: relative;
+  cursor: pointer;
+  font-family: "SackersGothicStdMedium";
+}
+
+.plananimation:before {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: 7px 12px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #0055a5;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: url("../img/footer/Group\ 2520.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.plananimation:after {
+  width: 30px;
+  height: 0;
+  content: "";
+  position: absolute;
+  left: 75px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-top: 1px solid #0055a5;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.plananimation:hover {
+  padding-left: 100px;
+  color: #0055a5;
+  -webkit-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+}
+.plananimation:focus:before,
+.plananimation:hover:before {
+  -webkit-transform: translateY(-50%) scale(1.2);
+  transform: translateY(-50%) scale(1.2);
+  color: #0055a5;
+}
+.plananimation:focus:after,
+.plananimation:hover:after {
+  width: 10px;
+}
+.mainhead {
+  display: flex;
+  align-items: center;
+}
+.mainhead h3 {
+  display: flex;
+  color: #0055a5;
+  margin-left: 4rem;
+}
+.mainhead p {
+  display: content;
+  color: rgb(82, 79, 79);
+  margin-left: 4rem;
+}
+.planhead {
+  display: flex;
+  color: #0055a5;
+  font-size: smaller;
+  justify-content: center;
+}
+.plansubhead h3 {
+  display: flex;
+  color: #0055a5;
+  text-align: left;
+  font: small;
+  justify-content: center;
+}
+.plansubhead P {
+  color: rgb(82, 79, 79);
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+.mainplanhead {
+  color: #0055a5;
+  text-align: start;
+  font-size: small;
+}
+.subpara {
+  color: #0055a5;
+  font-size: small;
+}
+
+.banbutton {
+  display: flex;
+  align-items: center;
+  width: 17%;
+  justify-content: space-between;
+  border-radius: 30%;
+}
+.banbutton2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30%;
+  width: 48%;
+}
+
+.mainplanhead {
+  display: flex;
+  justify-content: center;
+  color: #0055a5;
+  padding-left: 2rem;
+}
+
+/* .paddingPlanMain p{
+    color: rgb(82, 79, 79);
+  } */
+.compheranshhead {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.compheranshhead h2 {
+  font-family: "SackersGothicStdMedium";
+  font-size: 3rem;
+  line-height: 40px;
+  padding-bottom: 50px;
+}
+.planSectionMain {
+  background-image: url("../img/home/Downtown2.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* padding-bottom: 50rem !important; */
+  position: relative;
+}
+.planSectionDiv {
+  background-color: #e9f4ff;
+  padding: 2rem 5rem 5rem;
+  margin-left: 8rem;
+  position: absolute;
+  top: -75px;
+}
+.paddingPlanMain {
+  display: contents;
+  justify-content: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #0055a5;
+  align-items: center;
+}
+.innerHeading {
+  font-family: "SackersGothicStdBold";
+  font-size: 32px;
+  line-height: 41px;
+  text-transform: lowercase;
+  color: #0055a5;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.innerPara {
+  color: #707070;
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.compleft {
+  padding-right: 150px;
+}
+.planmainhead {
+  padding-top: 40px;
+}
+.planContent h3 {
+  color: #0055a5;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+.planContent p {
+  color: #707070;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.planContent a {
+  color: #0055a5;
+  font-size: 1rem;
+  cursor: pointer;
+
+}
+
+.mainhow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 50%;
+  /* justify-content: center; */
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.mainhow:hover {
+  /* width: 40%; */
+  padding: 0px 0px 0px 0px;
+  /* transition: 1s ease-in; */
+}
+.arrowbutton {
+  width: 50px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 40px;
+  background-color: #0055a5;
+  height: 1px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.arwimg {
+  display: flex;
+  align-items: center;
+}
+.arrowtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrowtext p {
+  font-family: "SackersGothicStdMedium";
+  font-size: 1rem;
+  color: #0055a5;
+  padding: 0;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+@media (max-width: 1560px) {
+  .planSectionMain {
+  
+    height: 110vh;
+ 
+}
+}
+
+@media (max-width: 1367px) {
+  .planSectionMain {
+  
+    height: 115vh;
+ 
+}
+  }
+
+
+@media (max-width: 1199px) {
+  .planContent a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    
+    }
+ 
+
+
+  .compleft {
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+  /* .planSectionMain {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+
+    position: relative;
+  } */
+  .planContent h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .planContent p {
+    font-size: 17px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .planSectionMain {
+  
+    height: 150vh;
+ 
+}
+}
+
+@media (max-width: 767px) {
+  .planSectionMain {
+height: auto;
+   
+  }
+  .planSectionDiv{
+
+    margin-left: 0rem;
+    position: unset;
+
+  }
+  .planContent a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  
+  }
+  .plananimation:after {
+    width: 30px;
+    height: 0;
+    content: "";
+    position: absolute;
+    left: 60px;
+    top: 50%;
+  }
+  .plananimation {
+    font-size: 13px;
+    color: #0055a5;
+    letter-spacing: 2px;
+    line-height: 13px;
+    text-transform: uppercase;
+    background: 0 0;
+    padding-left: 104px;
+    position: relative;
+    cursor: pointer;
+    font-family: "SackersGothicStdMedium";
+  }
+  .plananimation:before {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-size: 7px 12px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #0055a5;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-image: url("../img/footer/Group\ 2520.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .mainhow {
+    width: 97%;
+  }
+  .planContent p {
+    font-size: 0.9rem;
+  }
+  .planContent h3 {
+    font-size: 22px;
+  }
+  .compheranshhead h2 {
+    font-size: 24px;
+  }
+  .innerHeading {
+    font-size: 24px;
+  }
+  .innerPara {
+    font-size: 0.9rem;
+  }
+  .planSectionDiv {
+    padding: 1rem 1rem 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+
+}
+@media (max-width: 414px) {
+ 
+  .compheranshhead h2 {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 1000px) {
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .planSectionMain {
+  
+    height: 150vh;
+ 
+}
+}
+@media (min-width: 820px) and (max-width: 1024px){
+  .planSectionMain {
+  
+    height: 122vh;
+ 
+}
+}

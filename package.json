@@ -1,0 +1,42 @@
+{
+  "name": "fincart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.9.1",
+    "classnames": "^2.3.1",
+    "moment": "^2.29.4",
+    "next": "12.2.0",
+    "otp-timer": "^1.1.5",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-calendly": "2.2.2",
+    "react-chartjs-2": "^4.3.1",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "^1.3.5",
+    "react-markdown": "^8.0.3",
+    "react-scroll-parallax": "^3.2.0",
+    "react-select": "^5.5.0",
+    "react-toastify": "^9.0.8",
+    "reactstrap": "^9.1.1",
+    "recharts": "^2.1.15",
+    "sweetalert": "^2.1.2",
+    "swiper": "^8.3.1"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0"
+  }
+}

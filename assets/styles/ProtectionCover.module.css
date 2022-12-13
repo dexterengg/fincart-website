@@ -1,0 +1,280 @@
+.outerAdvanta {
+    background-image: url("../img/home/down.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+  
+  }
+  .Faqhead {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    font-family: "SackersGothicStdMedium" !important;
+    color: #0055A5;
+    font-size: 3rem;
+    padding: 0px 125px !important;
+    text-align: center;
+    
+  }
+  .faqsubhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #e9f4ff;
+    font-family: "SackersGothicStdBold" !important;
+    transform: lowercase !important;
+    margin-bottom: 30px;
+  }
+  .outerAdvanta .color {
+    position: relative;
+  }
+  .outerAdvanta .color {
+    top: 49%;
+    left: -31%;
+    width: 80%;
+  }
+  .InnearHome {
+    width: 100%;
+    background-color: #E9F4FF;
+    padding: 4rem;
+    padding-top: 2rem;
+    margin-top: -4rem;
+    margin-left: 15rem;
+  }
+
+
+  .maindiv {
+    background-color: #0055a5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 3rem;
+    position: relative;
+  }
+  .maindivheading h2 {
+    color: #a5d3ff;
+    font-family: "SackersGothicStdMedium";
+    text-align: center;
+    font-size: 2.9rem;
+  }
+  .maindivheading h3 {
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "SackersGothicStdMedium";
+  }
+  .advisorContentPad {
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+  }
+  .maindivheading ul li {
+    font-family: "SackersGothicStdlight";
+    color: #707070;
+    font-size: 1rem;
+  }
+  .watchmain h4 {
+    color: #e9f4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .watchvideo {
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e9f4ff;
+    border-radius: 0.5rem;
+  }
+  .watchvideo img {
+    width: 200px;
+    height: 200px;
+  }
+  .watchvideo p {
+    color: #0055a5;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+  
+  .listheading {
+    padding-right: 4rem;
+  }
+  
+  .registerHead {
+    display: flex;
+    align-items: center;
+  }
+  
+  .registerHead span {
+    width: 4rem;
+    height: 4rem;
+    background-color: #aed7ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+    font-size: 1.5rem;
+    font-family: "SackersGothicStdlight";
+    margin-top: 1rem;
+  }
+  .registerHead h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: "SackersGothicStdMedium";
+    margin-left: 3rem;
+  }
+  
+    
+
+  .registerHeading h3 {
+    font-size: 1.5rem;
+    color: #707070;
+    font-family: "SackersGothicStdlight";
+  }
+  .registerHeading p {
+    font-size: 1.5rem;
+    color: #707070;
+    font-family: Poppins;
+    display: none;
+  }
+  .registerHeadingActive {
+    font-size: 1.5rem;
+    color: #0055A5;
+    font-family: "SackersGothicStdlight";
+  }
+  .registerHeadingActives {
+    font-size: 18px;
+    color: #707070;
+    font-family: Poppins;
+    display: block;
+  }
+  .mainactive{
+    display: flex;
+  }
+  .outerdiv{
+    display: flex;
+  }
+  .dotStyleDiv {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 60%;
+    background-color: #0055A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dotStyleDivActive {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 60%;
+    background-color: #aed7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dotStyleSpan {
+    color: #fafafa;
+    font-size: 1.2rem;
+    font-family: "SackersGothicStdlight";
+  }
+
+
+  @media(max-width:1560px) {}
+
+@media(max-width:1367px) {
+  
+}
+
+@media(max-width:1199px) {
+ 
+  .InnearHome {
+
+    margin-left: 0rem;
+  }
+  .outerAdvanta {
+
+    padding-bottom: 0px;
+  
+  }
+
+}
+
+@media(max-width:991px) {
+  .InnearHome {
+
+    padding: 2rem 0rem;
+
+  }
+    
+}
+
+@media(max-width:767px) {
+  .Faqhead{
+    font-size: 24px !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .registerHeadingActive {
+    font-size: 22px !important;
+    text-align: center;
+    margin-top: 10px;
+
+  }
+  .registerHeading{
+    text-align: center;
+  }
+  
+  .registerHeadingActives {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+
+  }
+ 
+}
+
+
+
+@media(max-width:600px) {
+
+  .registerHeading h3 {
+ 
+    text-align: center;
+
+  }
+  .Faqhead {
+    padding: 0px 15px !important;
+    
+  }
+}
+
+@media(max-width:414px) {
+ 
+}
+@media (max-width: 1000px){
+   
+  }
+
+

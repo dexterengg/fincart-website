@@ -1,0 +1,99 @@
+.headheading h2{
+color: #0055A5;
+font-size: 3rem;
+padding-top: 5rem;
+}
+.headheading p{
+    display: flex;
+    justify-content: center;
+    color: #707070;
+    font-family: 'Poppins';
+    line-height: 2.5rem;
+    font-size: 21px;
+}
+.maindiv{
+    background-color: #E9F4FF;
+    margin-bottom: 7rem;
+}
+.maindivheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    margin-bottom: -6rem;
+}
+
+
+@media(max-width:1560px) {}
+
+@media(max-width:1367px) {
+  
+}
+
+@media(max-width:1199px) {
+ 
+
+
+
+}
+
+@media(max-width:991px) {
+    .headheading h2{
+        font-size: 2rem;
+    }
+    .headheading p{
+        font-size: 16px;
+        line-height: 2rem;
+    }
+    
+}
+
+@media(max-width:767px) {
+    .maindiv{
+        margin-bottom: 0rem;
+    }
+    .headheading h2{
+        font-size: 24px;
+        padding-bottom: 2.5rem;
+        padding-top: 10rem;
+        text-align: center;
+        }
+    .headheading p{
+        display: flex;
+        justify-content: center;
+        color: #707070;
+        font-family: Poppins;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+        padding-bottom: 3rem;
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media(max-width:600px) {
+ 
+}
+
+@media(max-width:414px) {
+    .headheading h2{
+      
+        padding-bottom: 2rem;
+        padding-top: 10rem;
+        text-align: center;
+        }
+}
+@media (max-width: 1000px){
+   
+  }
+  @media (min-width: 768px) and (max-width: 1024px){
+    .headheading h2{
+        font-size: 1.5rem;
+    }
+    .maindivheading{
+
+        padding-top: 6rem;
+ 
+    }
+  }

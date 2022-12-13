@@ -1,0 +1,124 @@
+.QualifiedCustomCarousel .swiper-button-prev {
+  left: 5%;
+  bottom: 0;
+  top: inherit;
+}
+.QualifiedCustomCarousel .swiper-button-next {
+  left: 15%;
+  bottom: 0;
+  top: inherit;
+}
+.QualifiedCustomCarousel .swiper-wrapper {
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.QualifiedCustomCarousel .hideCarouselsection {
+  display: flex;
+  align-items: center;
+}
+.swiper-slide-active > .row .hideCarouselsection img{
+     /* display: block;
+     visibility: inherit; */
+     width: auto;
+     object-fit: cover;
+     margin-top: 0px !important;   
+ }
+
+ .Team_Qualification h2 {
+    color:#FFFFFF;
+    font-family: "SackersGothicStdMedium";
+    font-weight: 500;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    }
+    .Team_Qualification h3{
+      color:#FFFFFF;
+      font-family: "SackersGothicStdMedium";
+      font-weight: 500;
+      font-size: 2.2rem;
+      padding-bottom: 1rem;
+    }
+    .Team_Qualification p {
+        font-family: "Poppins", sans-serif;
+        color: #A5D3FF;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-bottom: 2rem;
+    }
+    .forTextCenter {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  
+    .arrowtext p{
+        font-family: SackersGothicStdMedium;
+        font-size: 16px;
+        color: white;
+    }
+@media (max-width: 480px) {
+  .QualifiedCustomCarousel .hideCarouselsection img {
+    /* display: none;
+        visibility: hidden; */
+    /* height: 230px !important;
+    width: 200px !important; */
+
+    margin-top: 0px !important;
+  }
+  /* .swiper-slide-active{
+    height: 100% !important;
+    width: 200px !important;
+  } */
+}
+  /* media query invest page start */
+  @media only screen and (max-width: 991px) {
+  .Team_Qualification h2 {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+
+  .dotStyleDiv{
+    text-align: center;
+  }
+
+  
+  .Team_Qualification p {
+    font-size: 22px;
+  }
+
+  .Team_Qualification h3{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .Team_Qualification h2 {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 13px;
+    
+  }
+  .Team_Qualification p {
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+  
+      }
+}
+  @media only screen and (max-width: 599px) {
+   
+
+}
+@media only screen and (max-width: 414px) {
+
+}
+
+
+/* media query invest page end */

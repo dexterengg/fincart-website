@@ -1,0 +1,123 @@
+.bannerhead{
+    display: flex;
+    color: #0055A5;
+    justify-content: center;
+    text-align: left;
+    padding: 5px;
+    margin-left: 25px;
+    padding-left: 75px;
+}
+.banhead{ 
+    margin-bottom: 10rem;
+    padding-top: 4rem;
+}
+.banheadHeading{
+    font-family: SackersGothicStdMedium;
+    font-size: 38px;
+    line-height: 40px;
+}
+.banpara{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.ban2head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+ 
+}
+.ban2head h2{
+    color: #0055A5;
+    text-transform: lowercase;
+    font-size: 3rem;
+
+}
+.philosphyContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.philosphyContent h3{
+    font-family: SackersGothicStdlight;
+    font-size: 32px;
+    font-weight: 300;
+    color: #0055A5;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: lowercase;
+}
+.philosphyContent h4{
+    font-family:Poppins;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #0055A5;
+}
+.philosphyContent p{
+    font-family:Poppins;
+    color: #707070;
+    font-size: 1.1rem;
+    text-align : center;
+    font-weight: 300;
+    
+}
+
+@media(max-width:1560px) {}
+
+@media(max-width:1367px) {
+
+}
+
+@media(max-width:1199px) {
+    .philosphyContent h3{
+        font-size: 22px;
+    }
+
+
+
+}
+
+@media(max-width:991px) {
+    .philosphyContent h3{
+        font-size: 15px;
+    }
+    .philosphyContent p{
+        font-size: 1rem;
+    }
+    
+}
+
+@media(max-width:767px) {
+
+    .ban2head h2{
+        font-size: 24px;
+    
+    }
+    .philosphyContent h3{
+        font-size: 22px;
+       
+    }
+    .banhead{
+        margin-bottom: 5rem;
+    }
+    .philosphyContent{
+        margin-bottom: 1.2rem;
+    }
+    .philosphyContent p{
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:600px) {
+ 
+}
+
+@media(max-width:414px) {}
+   
+@media (max-width: 1000px){
+   
+  }

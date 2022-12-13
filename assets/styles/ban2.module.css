@@ -1,0 +1,143 @@
+.bannerhead {
+  display: flex;
+  color: #0055a5;
+  justify-content: center;
+  text-align: left;
+  padding: 5px;
+  margin-left: 25px;
+  padding-left: 75px; 
+}
+.banhead {
+  margin-bottom: 10rem;
+  padding-top: 4rem;
+}
+.ban2head h2 {
+  font-family: "SackersGothicStdMedium";
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+.ban2head p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #707070;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banpara {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.ban2head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.ban2head h2 {
+  color: #0055a5;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+.philosphyContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 50px;
+}
+.philosphyContent h3 {
+  font-family: "SackersGothicStdlight";
+  font-size: 32px;
+  font-weight: 300;
+  color: #0055a5;
+  padding-bottom: 20px;
+  text-transform: lowercase;
+}
+.philosphyContent h4 {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #0055a5;
+}
+.philosphyContent p {
+  font-family: "Poppins";
+  color: #707070;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+@media (max-width: 1560px) {
+  .banhead {
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 1367px) {
+}
+
+@media (max-width: 1199px) {
+  .philosphyContent h4 {
+    text-align: center;
+  }
+  .philosphyContent p {
+    font-size: 1rem;
+  }
+  
+}
+
+@media (max-width: 991px) {
+  .philosphyContent h3 {
+    font-size:25px ;
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .philosphyContent p {
+font-size: 0.9rem;
+  }
+  .philosphyContent h3 {
+font-size: 24px;
+  }
+  .banheadHeading {
+    font-size: 2.5rem;
+  }
+  .philosphyContent h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .philosphyContent {
+    padding-top: 30px;
+  }
+  .ban2head p {
+    font-size: 0.9rem;
+  }
+  .ban2head h2 {
+    color: #0055a5;
+    font-size: 24px;
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 414px) {
+ 
+  .banhead {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 1000px) {
+}

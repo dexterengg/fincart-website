@@ -1,0 +1,324 @@
+.homemain {
+  width: 100%;
+  height: calc(100vh - 71px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url("../img/about/shuchi.jpg");
+}
+
+.maindivHeading h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+  align-items: left;
+  font-size: 2.7rem;
+  padding-bottom: 0.7rem;
+  /* margin: 1rem; */
+}
+.maindivpara {
+  font-family: "Poppins", sans-serif;
+  color: #fafafa;
+  font-size: 1.2rem;
+  align-items: left;
+  padding-bottom: 2rem;
+}
+.mainhow {
+  display: flex;
+  align-items: center;
+}
+.arrowbutton {
+  width: 50px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 40px;
+  background-color: #ffffff;
+  height: 1px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.arwimg {
+  display: flex;
+  align-items: center;
+}
+.arrowtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrowtext p {
+  font-family: "SackersGothicStdMedium";
+  font-size: 1rem;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ******************************* */
+.maindivheading h2 {
+  font-family: "SackersGothicStdMedium";
+  color: #FAFAFA;
+  font-size: 2.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 14px;
+  /* padding-top: 12rem; */
+}
+.crossbtn{
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  cursor: pointer;
+}
+.maindiv{
+    background-image: url("../img/Protect/Mask\ Group\ 2708.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.maindivheading p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #FAFAFA;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.submit button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 160px;
+  height: 55px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  color: #a5d3ff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 2px solid #0055a5;
+  overflow: hidden;
+}
+ .submit button::before {
+  content: "Submit";
+  background-color: #0055a5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+} 
+.submit button::before {
+  transform: translateY(-0%);
+}
+
+.submit button:hover::before {
+  transform: translate(0%, 100%);
+  transition: all 1s;
+}
+
+.submit button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+}
+.name {
+    font-family: "Poppins", sans-serif;
+    padding: 1rem;
+    color: #707070;
+  }
+  
+  .abouthovereffect{
+ 
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0px;
+    line-height: 5px;
+   
+    background: 0 0;
+    padding-left: 128px;
+    position: relative;
+    cursor: pointer;
+    font-family: "SackersGothicStdMedium";
+  }
+  
+  .abouthovereffect:before{
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: 7px 12px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #0055a5;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: url("../img/footer/Group\ 2520.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  }
+  .abouthovereffect:after{
+  width: 30px;
+  height: 0;
+  content: "";
+  position: absolute;
+  left: 75px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-top: 1px solid #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  }
+  .abouthovereffect:hover {
+  padding-left: 100px;
+  color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  }
+  
+  .abouthovereffect:focus:before, .abouthovereffect:hover:before {
+  -webkit-transform: translateY(-50%) scale(1.2);
+  transform: translateY(-50%) scale(1.2);
+  color: #ffffff;
+  }
+  .abouthovereffect:focus:after, .abouthovereffect:hover:after {
+  width: 10px;
+  }
+  
+/* ******************************* */
+/* media query */
+@media (max-width: 1499px) {
+  .aboutios{
+    padding-left: 6rem;
+  }
+}
+@media (max-width: 1367px) {
+  .aboutios{
+    padding-left: 0rem;
+  }
+}
+@media (max-width: 767px) {
+  .homemain{
+    height: 70vh;
+  }
+  .aboutios{
+    padding-left: 0rem;
+  }
+  .abouthovereffect{
+ 
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0px;
+    line-height: 5px;
+   
+    background: 0 0;
+    padding-left: 104px !important;
+    position: relative;
+    cursor: pointer;
+    font-family: "SackersGothicStdMedium";
+  }
+  .abouthovereffect:after {
+    width: 30px;
+    height: 0;
+    left: 60px !important;
+    border-top: 1px solid #fff;
+}
+  .maindivHeading h3 {
+    font-size: 1.8rem;
+  }
+  .maindivpara {
+font-size: 1rem;
+}
+.crossbtn{
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 13px;
+  right: 19px;
+  cursor: pointer;
+  width: 50px;
+}
+}
+@media (max-width: 414px) {
+  .aboutios{
+    padding-left: 0rem;
+  }
+  .crossbtn{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 13px;
+    right: 19px;
+    cursor: pointer;
+    width: 40px;
+  }
+  .maindivHeading h3 {
+    font-size: 1.5rem;
+  }
+  .name {
+    font-family: "Poppins", sans-serif;
+    padding: 0.2rem;
+    color: #707070;
+  }
+
+  
+}
+@media (max-width: 414px) {
+  .aboutios{
+    padding-left: 0rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .aboutios{
+    padding-left: 0rem;
+  }
+}
+@media (max-width: 1024px) {
+  .homemain {
+
+    height: 70vh
+}
+}
+/* media query */
+
+
+

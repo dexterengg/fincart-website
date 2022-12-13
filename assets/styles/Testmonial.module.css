@@ -1,0 +1,72 @@
+.testimonialMain {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.testimonialMain h2 {
+  color: #0055a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: 500;
+  font-family: SackersGothicStdMedium !important;
+}
+.NameProfession h3 {
+  font-family: "SackersGothicStdBold";
+  font-size: 21px;
+  color: #0055a5;
+  text-transform: lowercase;
+}
+.NameProfession h4 {
+  color: #0055a5;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.testmonialContent p {
+  color: #707070;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 1560px) {
+}
+
+@media (max-width: 1367px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+  .testmonialContent p {
+    line-height: 1.1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .NameProfession h4 {
+    font-size: 22px;
+  }
+  .NameProfession h3 {
+    margin: 1rem 0rem;
+    font-size: 24px;
+  }
+  .testimonialMain h2 {
+    font-size: 24px;
+  }
+  .testmonialContent p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 414px) {
+}
+@media (max-width: 1000px) {
+}

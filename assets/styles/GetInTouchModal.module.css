@@ -1,0 +1,420 @@
+.homeBannerMain {
+    width: 100%;
+    height: calc(100vh - 71px);
+    background-image: url("../img/about/popup.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    z-index: 0;
+  }
+
+  .resendOtpMain{
+    margin-top: 2rem;
+  }
+  .resendOtpMain div button span, .resendOtpMain div span{
+    background: none !important;
+    color: #707070 !important;
+    font-family: "Poppins" !important;
+    font-size: 0.85rem !important;
+  }
+
+  .homeBannerContent {
+    font-family: 'Poppins', sans-serif;   
+    font-size: 52px;
+    align-content: center;
+    align-items: left;
+    color: white;
+    font-weight: 300;
+    margin-top: 190px;
+    width: 50%;
+  
+  }
+  .banhead {
+    font-size: 3rem;
+    align-content: center;
+    color: 0055a5;
+    margin-bottom: 25px;
+    line-height: 70px;
+  }
+  .bannerButton{
+    border-radius: 30%;
+    font-size: medium;
+  }
+  .banbutton{
+    display: flex;
+      align-items: center;
+      width: 44%;
+      justify-content: space-between;
+  
+  }
+  .mainhow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 50%;
+    /* justify-content: center; */
+    transition-duration:0.5s;
+    transition-timing-function:linear;
+  }
+  .mainhow:hover{
+    width: 40%;
+    padding: 0px 30px 0px 0px;
+    /* transition: 1s ease-in; */
+  }
+  /* .arrowtext p:hover {
+    padding: 0;
+    margin: 0;
+  } */
+  .arrowbutton {
+    width: 50px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    width: 40px;
+    background-color: #ffffff;
+    height: 1px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .arwimg {
+    display: flex;
+    align-items: center;
+  }
+  .arrowtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrowtext p {
+    font-family: "SackersGothicStdMedium";
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .imagewrap{
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    z-index: -1;
+  }
+/* ***************************************** */
+.maindivheading h2 {
+  font-family: "SackersGothicStdMedium";
+  color: #FAFAFA;
+  font-size: 2.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 14px;
+  /* padding-top: 12rem; */
+}
+.crossbtn{
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.singleline{
+  display: flex;
+  color: #ffffff;
+  cursor: pointer;
+}
+.singlelines{
+  margin-left: 20px;
+  font-size: 1rem;
+}
+.maindiv{
+    background-image: url("../img/Protect/contacbg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.maindivheading p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #FAFAFA;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+}
+.submit button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 260px;
+  height: 55px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  color: #a5d3ff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 2px solid #0055a5;
+  overflow: hidden;
+}
+ .submit button::before {
+  content: "Submit";
+  background-color: #0055a5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+} 
+.submit button::before {
+  transform: translateY(-0%);
+}
+
+.submitLoading button::before{
+  content: "Loading...";
+}
+
+.submit button:hover::before {
+  transform: translate(0%, 100%);
+  transition: all 1s;
+}
+
+.submit button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+}
+
+/*  */
+
+/*  */
+.submits{
+  display: flex;
+  justify-content: center;
+}
+.submits button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 260px;
+  height: 55px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  /* color: #a5d3ff; */
+  color: #fff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 2px solid #0055a5;
+  overflow: hidden;
+}
+ .submits button::before {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+  color: #fff;
+} 
+/* .submits button::before {
+  transform: translateY(-100%);
+  color: #fff;
+} */
+
+/* .submits button:hover::before {
+  color: #fff;
+  transform: translate(100%, 100%);
+  transition: all 1s;
+} */
+
+/* .submits button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+} */
+
+/*  */
+
+.otp{
+  display: flex;
+  justify-content: center;
+}
+.otp button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 260px;
+  height: 55px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  color: #a5d3ff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 2px solid #0055a5;
+  overflow: hidden;
+}
+ .otp button::before {
+  content: "Get Otp";
+  background-color: #0055a5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+} 
+.otp button::before {
+  transform: translateY(-0%);
+}
+.loaderIngOtp button::before{
+  content: "Loading...";
+}
+
+
+.otp button:hover::before {
+  transform: translate(0%, 100%);
+  transition: all 1s;
+}
+
+.otp button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+}
+.name {
+    font-family: "Poppins", sans-serif;
+    padding: 1rem;
+    color: #707070;
+  }
+/* ******************************************** */
+  @media(max-width:1560px) {}
+
+@media(max-width:1367px) {
+  
+}
+
+@media(max-width:1199px) {
+ 
+
+
+
+}
+
+@media(max-width:991px) {
+  .homeBannerContent {
+    width: 80%;
+  }
+    
+}
+
+@media(max-width:767px) {
+  .homeBannerMain {
+    height: calc(88vh - 0px);
+    background-position: 100% 100%;
+  }
+  .crossbtn{
+    top: 1rem;
+    right: 1rem;
+  }
+  .crossbtn span img {
+
+    width:50% !important;
+    height: 50% !important;
+  }
+
+  .banhead {
+    font-size: 1.5rem;
+    line-height: 37px;
+  }
+  .homeBannerContent {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .maindivheading h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .maindivheading p{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+@media(max-width:600px) {
+  .homeBannerMain {
+    height: calc(72vh - 0px);
+
+  }
+  .arrowtext p {
+  
+    font-size: 0.8rem;
+  
+  }
+}
+
+@media(max-width:414px) {
+
+}
+@media (max-width: 1000px){
+   
+  }
+  .resendOtpWhite div button span, .resendOtpWhite div span{
+    color: #fff !important;
+
+  }

@@ -1,0 +1,63 @@
+.maindivHeading h2 {
+  color: #0055a5;
+  font-family: "SackersGothicStdMedium";
+  font-size: 400;
+  text-align: center;
+  font-size: 2.5rem;
+}
+/* .imgcontent span img{
+     height: 26rem !important; 
+    padding-bottom: 2rem!important;
+ }  */
+.maindivHeading {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.Trackgoal {
+  background-image: url("../img/invest/Group\ 2852.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 100%;
+  background-size: contain;
+  margin-bottom: 3rem;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 991px) {
+.Trackgoal {
+  height: 40vh;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .Trackgoal {
+        background-image: url(../img/invest/Group\ 3065.png);
+        height: 39vh;
+        margin-bottom: 1rem;
+      }
+  .maindivHeading h2 {
+    font-size:24px;
+  }
+  .maindivHeading {
+    padding-bottom: 3rem;
+  }
+  .imgcontent span img {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 599px) {
+ 
+}
+@media only screen and (max-width: 414px) {
+ 
+}

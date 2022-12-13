@@ -1,0 +1,21 @@
+.maindiv h2 {
+  font-family: "SackersGothicStdMedium";
+  font-weight: 400;
+  color: #0055a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3.5rem;
+  padding-bottom: 1rem;
+}
+.maindiv p {
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.contentbg{
+  background-color: #E9F4FF;
+ } 

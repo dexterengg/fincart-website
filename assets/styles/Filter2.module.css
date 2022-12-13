@@ -1,0 +1,159 @@
+.maindiv {
+  width: 90%;
+  background: #fafcff;
+  padding-top: 2rem;
+  margin-top: -8rem;
+  position: absolute;
+}
+
+.maindivHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.maindivHeading h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #0055a5;
+  letter-spacing: 1px;
+}
+.maindivHeading h4 {
+  padding: 10px 0px;
+  color: #707070;
+  font-size: 21px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.maindivHeading p {
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 300;
+  color: #707070;
+}
+.filterContent {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.filterContentText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.filterContentText p {
+  color: #0055a5;
+  font-weight: 500;
+  font-family: "SackersGothicStdBold";
+  text-transform: lowercase;
+  font-size: 15px;
+  text-align: center;
+}
+
+.filterContentText {
+  border-right: 2px solid #0055a5;
+}
+.filterContentText:nth-child(4) {
+  border-right: none;
+}
+.filterContentText:nth-child(7) {
+  border-right: none;
+}
+.filterContentText:nth-child(6) {
+  border-right: none;
+}
+.filterContentText:nth-child(7) {
+  border-left: 2px solid #0055a5;
+  border-right: none;
+  display: flex;
+  width: 30%;
+}
+.filterContentText:nth-child(5) {
+  display: flex;
+  width: 29%;
+}
+@media (max-width: 1560px) {
+}
+
+@media (max-width: 1367px) {
+  .filterContentText p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .filterContentText p {
+    font-size: 13px;
+  }
+  .maindiv {
+    width: 100%;
+  }
+  /* .filterContent{} */
+}
+
+@media (max-width: 991px) {
+  .filterContentText p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* .maindiv {
+        padding-top: 35rem;
+       
+      } */
+  .filterContentText p {
+    font-size: 1rem;
+  }
+
+  .filterContentText {
+    border-right: 0px solid #0055a5;
+    width: 100%;
+  }
+  .filterContent {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .filterContentText:nth-child(7) {
+    border-left: 0px solid #0055a5;
+  }
+  .filterContentText:nth-child(5) {
+    display: flex;
+    width: 100%;
+  }
+  .filterContentText:nth-child(7) {
+    width: 100%;
+  }
+  .maindivHeading h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .maindivHeading h4 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .maindivHeading p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .maindiv {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 414px) {
+
+
+ 
+}
+@media (max-width: 1000px) {
+}

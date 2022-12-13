@@ -1,0 +1,236 @@
+.maindivheading h2 {
+  color: #0055a5;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: SackersGothicStdMedium;
+}
+
+.maindivheading p {
+  color: #707070;
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.maindiv {
+  padding: 3rem;
+}
+.name {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+  color: #707070;
+}
+.name input {
+  border: 1px solid #0055a5;
+}
+.name input:focus {
+  outline: none !important;
+  border: 1px solid #0055a5 !important;
+}
+.name input:active {
+  outline: none !important;
+  border: 1px solid #0055a5 !important;
+}
+/* .submit button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5rem;
+  background-color: #0055a5 !important;
+  color: #fff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+} */
+
+.submit button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 160px;
+  height: 43px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  color: #a5d3ff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 1px solid #f1faee;
+  overflow: hidden;
+}
+
+.submit button::before {
+  content: "Submit";
+  background-color: #0055a5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  border: 1px solid #f1faee;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+}
+
+.submit button::before {
+  transform: translateY(-0%);
+  color: #fff;
+}
+.submitLoading button::before{
+  content: "Loading...";
+}
+
+.submit button:hover::before {
+  transform: translate(0%, 100%);
+  transition: all 1s;
+}
+
+.submit button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+}
+.otp{
+  padding-left: 1rem;
+}
+
+/*  */
+
+.otp button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 160px;
+  height: 43px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  color: #a5d3ff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 1px solid #f1faee;
+  overflow: hidden;
+}
+
+.otp  button::before {
+  content: "Get Otp";
+  background-color: #0055a5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  border: 1px solid #f1faee;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+}
+
+.loaderIngOtp button::before{
+  content: "Loading...";
+}
+.resendOtp{
+  margin-left: 1rem;
+}
+.textLogin{
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.otp  button::before {
+  transform: translateY(-0%);
+  color: #fff;
+}
+
+.otp button:hover::before {
+  transform: translate(0%, 100%);
+  transition: all 1s;
+}
+
+.otp  button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+}
+.resendOtpMain{
+  margin-top: 2rem;
+}
+.resendOtpMain div button span, .resendOtpMain div span{
+  background: none !important;
+  color: #707070 !important;
+  font-family: "Poppins" !important;
+  font-size: 0.85rem !important;
+}
+
+@media (max-width: 1560px) {
+}
+
+@media (max-width: 1367px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .otp{
+    padding-left: 0rem;
+  }
+  .maindivheading h2 {
+    font-size: 24px;
+  }
+  .maindiv {
+    padding: 3rem 1.5rem;
+  }
+  .name {
+    padding: 1rem 0rem;
+  }
+  .maindivheading p {
+    font-size: 0.9rem;
+}
+}
+
+@media (max-width: 600px) {
+  .submit button {
+    width: 114px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 414px) {
+  .maindiv {
+    padding: 3rem 1rem;
+  }
+
+  }
+
+@media (max-width: 1000px) {
+}
+.submit{
+  padding-left: 1rem !important;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .maindivheading h2 {
+
+    font-size: 2rem;
+
+  }
+}
+
+

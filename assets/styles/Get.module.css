@@ -1,0 +1,44 @@
+.maindivheading h2{
+    color:#0055A5 ;   
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: "SackersGothicStdMedium";
+    
+    }
+    .maindivheading p{
+        color: #707070;
+         font-family: 'Poppins';  
+         font-size: 1.1rem; 
+         line-height: 2rem;
+    }
+    
+    .maindiv{
+        padding: 3rem;
+    }
+    .name{
+        font-family: 'Poppins', sans-serif;  
+        padding:1rem;
+        color: #707070;
+    }
+    .name input{
+        border: 1px solid #0055A5;
+    }
+    .name input:focus{
+        outline: none !important;
+        border: 1px solid #0055A5 !important;
+    }
+    .name input:active{
+        outline: none !important;
+        border: 1px solid #0055A5 !important;
+    }
+    .submit button{
+        font-family: "SackersGothicStdlight" !important;  
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: 5rem;
+        background-color: #0055A5 !important;
+        color: #fff;
+        margin-top: 1rem;
+        text-transform: uppercase;
+    }
+    

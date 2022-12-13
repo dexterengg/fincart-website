@@ -1,0 +1,130 @@
+.footer {
+    background-image: url('../../assets/img/footer/Footer.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 14px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.calicon {
+    max-width: 70px;
+}
+
+.Calendly {
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    z-index: 99;
+    background: #0055a5;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Calendly span img {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+.linkstyle span img {
+    margin: 4rem !important;
+}
+
+.title {
+    text-align: left;
+    font-family: SackersGothicStdlight;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-right: 65px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.footernote {
+    text-align: left;
+    font: normal normal normal 18px/28px Poppins;
+    letter-spacing: 0.9px;
+    color: #E0E0E0;
+}
+
+.policylist {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    font-family: "Poppins";
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+.policylist li a {
+    color: #E0E0E0 !important;
+}
+
+.policy {
+    text-align: left;
+    font: normal normal normal 18px/34px Poppins;
+    letter-spacing: 0.9px;
+    color: #E0E0E0;
+}
+
+.policytitle {
+    text-align: left;
+    font-family: SackersGothicStdMedium;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #FBC040;
+    text-transform: lowercase;
+
+
+}
+
+.policytitle a:hover {
+    text-decoration: none;
+    color: #FBC040;
+
+}
+
+.policy {
+    text-align: left;
+    font: normal normal normal 16px/34px Poppins;
+    letter-spacing: 0.9px;
+    color: #E0E0E0;
+    opacity: 1;
+    padding: 0;
+    list-style: none;
+
+}
+
+.policy a {
+    color: #E0E0E0;
+}
+
+.mainapp {
+    display: flex;
+    padding-top: 15px;
+    justify-content: flex-start;
+
+}
+
+.appiconleft {
+    margin-left: 50px;
+}
+@media (max-width: 767px) {
+    .calicon {
+        max-width: 40px;
+    }
+    .Calendly span img {
+        width: 2rem !important;
+        height: 2rem !important;
+        object-fit: contain;
+    }
+}

@@ -1,0 +1,147 @@
+.maindiv {
+  background-color: #eaf5ff;
+  /* padding-top: 8rem; */
+  padding-bottom: 3rem;
+}
+
+.filterwhite {
+  width: 100%;
+  height: 10px;
+  background-color: #fff;
+  margin-bottom: 16rem;
+}
+.fincartBenifit {
+  color: #0055a5;
+  font-family: "SackersGothicStdmedium";
+  font-size: 2.9rem;
+  font-weight: 400;
+}
+.BenefitContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.imgcontent {
+  background-color: #a5d3ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+}
+.para{
+  padding-top: 1rem;
+  color: #0055a5;
+  font-family: "Poppins";
+  font-size: 1.2rem;
+}
+.BenefitContent h3 {
+  font-family: "SackersGothicStdbold";
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  color: #0055a5;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+/* media query start */
+
+@media (max-width: 1560px) {
+}
+@media only screen and (max-width: 1399px) {
+  .fincartBenifit {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .BenefitContent h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .fincartBenifit {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 1042px) {
+  .BenefitContent h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .maindiv {
+    padding-top: 8rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .BenefitContent h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .maindiv {
+    padding-top: 8rem;
+ 
+  }
+  .fincartBenifit {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .BenefitContent h3 {
+    font-size: 19px;
+  }
+  .fincartBenifit {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 0rem;
+  }
+
+  .maindiv {
+    padding-top: 6rem;
+  }
+  .filterwhite {
+    margin-bottom: 32rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .maindiv {
+    padding-top: 41rem;
+  }
+  .fincartBenifit {
+    /* font-size: 1.3rem; */
+    text-align: center;
+    padding-bottom: 0rem;
+  }
+  .filterwhite {
+    margin-bottom: 3rem;
+  }
+  .maindiv {
+    margin-top: 0rem;
+  }
+}
+@media (max-width: 500px) {
+  .maindiv {
+    padding-top: 44rem;
+  }
+}
+@media (max-width: 414px) {
+
+  .para{
+
+    font-size: 0.9rem;
+  }
+  .maindiv {
+    padding-top: 44rem;
+  }
+}
+@media (max-width: 1000px) {
+}
+/* media query end */

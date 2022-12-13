@@ -1,0 +1,83 @@
+
+.maindivheading h2 {
+    font-family: "SackersGothicStdMedium";
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0055A5;
+    padding-top: 1.5rem;
+    margin-left: 11rem;
+  
+    width: 64%;
+}
+/* .goalcontent span img{ */
+    /* height: 5rem !important; */
+ /* } */
+ /* .goalcontent span img{
+height: 2rem !important;
+width: 2rem !important;
+ } */
+ /* .goalcontent{
+    padding: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    height: 18rem !important;
+    width: 17rem !important;
+ } */
+ .maindivheading p{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    color: #707070;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+    padding-right: 9rem;
+    margin-left: 3rem;
+padding-bottom: 2rem;
+ }
+ .networkImg img{
+   height: 8rem;
+ }
+/* media query start */
+
+@media only screen and (max-width: 1199px) {
+   .maindivheading h2 {
+      font-size: 2rem;
+   }
+   /* .goalcontent{
+      padding: 2rem;
+   } */
+}
+@media only screen and (max-width: 767px) {
+   .maindivheading h2 {
+      font-size: 24px;
+   }
+   .maindivheading p{
+      font-size: 0.9rem;
+   }
+   .maindivheading h2 {
+      margin-left: 0rem;
+      width: 96%;
+  }
+  .maindivheading p{
+   padding-right: 0rem;
+   margin-left: 0rem;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+   .maindivheading h2 {
+    
+  
+      margin-left: 0rem;
+    
+      width: unset;
+  }
+  .maindivheading p{
+  
+   padding-right: 0rem;
+}
+}
+
+/* media query end  */

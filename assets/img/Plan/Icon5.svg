@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65.225" height="56.897" viewBox="0 0 65.225 56.897">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2711" data-name="Rectangle 2711" width="65.225" height="56.897" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2533" data-name="Group 2533" transform="translate(0 0)">
+    <g id="Group_2532" data-name="Group 2532" clip-path="url(#clip-path)">
+      <circle id="Ellipse_252" data-name="Ellipse 252" cx="5.358" cy="5.358" r="5.358" transform="translate(10.541 21.702)" fill="none" stroke="#004795" stroke-width="2"/>
+      <path id="Path_2325" data-name="Path 2325" d="M59.711,12.762a7.216,7.216,0,1,1-7.217-7.217A7.217,7.217,0,0,1,59.711,12.762Z" fill="none" stroke="#004795" stroke-width="2"/>
+      <path id="Path_2326" data-name="Path 2326" d="M60.07,51.127V53.9a2,2,0,0,1-2,2H22.641a3,3,0,0,1-2.119-.877l-5.9-5.893L1.586,36.093a2,2,0,0,1,0-2.83l1.959-1.955a2,2,0,0,1,2.827,0L23.311,48.248a3,3,0,0,0,2.122.879H58.07A2,2,0,0,1,60.07,51.127Z" fill="none" stroke="#004695" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_272" data-name="Line 272" x1="5.73" y2="1.49" transform="translate(31.41 45.137)" fill="none" stroke="#004695" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_273" data-name="Line 273" x1="1.4" y1="1.4" transform="translate(26.77 44.347)" fill="none" stroke="#004695" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_2327" data-name="Path 2327" d="M60.169,41.109l-.609,2.7a2,2,0,0,1-2.391,1.511L46.04,42.807h-.01l-8.89,2.33-5.726,1.491a3.38,3.38,0,0,1-3.243-.881l-1.4-1.4-6.458-6.465a2,2,0,0,1,0-2.828L22.266,33.1a2,2,0,0,1,2.828,0l6.5,6.495,7.27-1.909,7.05-1.841.95.221h.01l11.787,2.65A2,2,0,0,1,60.169,41.109Z" fill="none" stroke="#004695" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_274" data-name="Line 274" y1="4.213" transform="translate(52.874 0)" fill="none" stroke="#004795" stroke-width="2"/>
+      <line id="Line_275" data-name="Line 275" y1="4.213" transform="translate(52.618 21.383)" fill="none" stroke="#004795" stroke-width="2"/>
+      <line id="Line_276" data-name="Line 276" x1="4.213" transform="translate(39.629 12.67)" fill="none" stroke="#004795" stroke-width="2"/>
+      <line id="Line_277" data-name="Line 277" x1="4.213" transform="translate(61.012 12.926)" fill="none" stroke="#004795" stroke-width="2"/>
+      <line id="Line_278" data-name="Line 278" y1="2.979" x2="2.979" transform="translate(58.813 4.064)" fill="none" stroke="#004795" stroke-width="2"/>
+      <line id="Line_279" data-name="Line 279" y1="2.979" x2="2.979" transform="translate(43.513 19.004)" fill="none" stroke="#004795" stroke-width="2"/>
+      <line id="Line_280" data-name="Line 280" x1="2.979" y1="2.979" transform="translate(43.468 3.658)" fill="none" stroke="#004795" stroke-width="2"/>
+      <line id="Line_281" data-name="Line 281" x1="2.979" y1="2.979" transform="translate(58.407 18.959)" fill="none" stroke="#004795" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

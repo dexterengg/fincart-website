@@ -1,0 +1,67 @@
+.mainDiv{
+  padding-top: 5rem;
+}
+.maindivHeading h3{
+  font-family: "SackersGothicStdMedium";
+  font-size: 2.5rem;
+  color: #0055A5;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.maincontent{
+  font-family: "SackersGothicStdMedium";
+  font-size: 1.2rem;
+  color: #0055A5;
+  padding-bottom: 2rem;
+}
+.president{
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  font-size: 1.2rem;
+}
+.subpara{
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+}
+.treminsurance{
+  padding-top: 5rem;
+}
+.terminsurance{
+  padding-top: 7rem;
+}
+
+.timeMain {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+.timeClasses span {
+  color: #0055a5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.viewsClasses span {
+  color: #0055a5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.timeClasses,
+.viewsClasses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 8px;
+}
+.viewsClasses span,
+.timeClasses span {
+  margin-left: 0.5rem;
+}
+.timeClasses {
+  border-right: 1px solid #0055a5;
+  padding-right: 1rem;
+}
+.viewsClasses {
+  margin-left: 1rem;
+}

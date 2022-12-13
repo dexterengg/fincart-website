@@ -1,0 +1,415 @@
+.Maindiv {
+  width: 100%;
+  height: calc(100vh - 71px);
+  background-image: url("../img/home/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.banerhead {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  align-content: center;
+  align-items: left;
+  color: white;
+}
+.resendOtpMain{
+  margin-top: 2rem;
+}
+.resendOtpMain div button span, .resendOtpMain div span{
+  background: none !important;
+  color: #707070 !important;
+  font-family: "Poppins" !important;
+  font-size: 0.85rem !important;
+}
+
+.banhead h4 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+.bannerButton {
+  border-radius: 30%;
+  font-size: medium;
+}
+.banbutton {
+  display: flex;
+  align-items: center;
+  width: 44%;
+  justify-content: space-between;
+}
+.line {
+  width: 12%;
+  height: 2px;
+  background-color: #fff;
+}
+.arrowtext p {
+  display: flex;
+  align-items: center;
+}
+.name input {
+  border: 1px solid #0055a5;
+  /* margin-top: 1.5rem; */
+}
+.name input:focus {
+  outline: none !important;
+  border: 1px solid #0055a5 !important;
+}
+.name input:active {
+  outline: none !important;
+  border: 1px solid #0055a5 !important;
+}
+.submit button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5rem;
+  background-color: #0055a5 !important;
+  color: #fff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+.banform {
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+  background-color: #eaf5ff;
+  /* position: absolute;
+  right: 0%;
+  top: 28%; */
+}
+.mainhow {
+  display: flex;
+  align-items: center;
+}
+.arrowbutton {
+  width: 50px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 40px;
+  background-color: #ffffff;
+  height: 1px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.arwimg {
+  display: flex;
+  align-items: center;
+}
+.arrowtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrowtext p {
+  font-family: "SackersGothicStdMedium";
+  font-size: 1rem;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+/* ***************************************** */
+.maindivheading h2 {
+  font-family: "SackersGothicStdMedium";
+  color: #FAFAFA;
+  font-size: 2.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 14px;
+  /* padding-top: 12rem; */
+}
+.crossbtn{
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  cursor: pointer;
+}
+.maindiv{
+    background-image: url("../img/Protect/Mask\ Group\ 2708.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.maindivheading p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #FAFAFA;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+}
+.submit button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 260px;
+  height: 55px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  color: #a5d3ff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 2px solid #0055a5;
+  overflow: hidden;
+}
+ .submit button::before {
+  content: "Submit";
+  background-color: #0055a5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+} 
+.submit button::before {
+  transform: translateY(-0%);
+}
+
+.submitLoading button::before{
+  content: "Loading...";
+}
+
+.submit button:hover::before {
+  transform: translate(0%, 100%);
+  transition: all 1s;
+}
+
+.submit button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+}
+
+/*  */
+
+.otp{
+  display: flex;
+  justify-content: center;
+}
+.otp button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 260px;
+  height: 55px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  color: #a5d3ff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 2px solid #0055a5;
+  overflow: hidden;
+}
+.otp button::before {
+  content: "Get Otp";
+  background-color: #0055a5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+} 
+.otp button::before {
+  transform: translateY(-0%);
+}
+
+.loaderIngOtp button::before{
+  content: "Loading...";
+}
+
+.otp button:hover::before {
+  transform: translate(0%, 100%);
+  transition: all 1s;
+}
+
+.otp button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+}
+.name {
+    font-family: "Poppins", sans-serif;
+    padding: 1rem;
+    color: #707070;
+  }
+/* ******************************************** */
+
+/* Media Query start */
+@media only screen and (max-width: 1367px) {
+  .banhead{
+    padding-left: 0rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 1499px) {
+  .banhead{
+    padding-left: 6rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .name {
+    padding: 5px;
+  }
+.otp button {
+  font-family: SackersGothicStdlight !important;
+  font-size: 0.85rem;
+  /* padding: 0.7rem 1.5rem; */
+  width: 160px;
+  height: 55px;
+  border-radius: 5rem;
+  background-color: #a5d3ff !important;
+  color: #a5d3ff;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 1s;
+  box-shadow: none;
+  border: 1px solid #f1faee;
+  overflow: hidden;
+}
+
+.otp  button::before {
+  content: "Get Otp";
+  background-color: #0055a5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  border-radius: 20px;
+  transition: all 1s;
+  border: 1px solid #f1faee;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+}
+
+.otp  button::before {
+  transform: translateY(-0%);
+  color: #fff;
+}
+
+.otp button:hover::before {
+  transform: translate(0%, 100%);
+  transition: all 1s;
+}
+
+.otp  button:hover {
+  color: #fff;
+  transition: all 1s;
+  font-size: 1.1rem;
+}
+  .banhead h4 {
+    font-size: 1.5rem;
+ 
+  }
+  .banhead{
+    padding-left: 0rem;
+  }
+  .Maindiv {
+/*   
+    justify-content: unset;
+    align-items: unset;
+    position: unset; */
+    padding-top: 3rem;
+      height: calc(100vh - 80px);
+  }
+}
+@media only screen and (max-width: 600px) {
+
+  .banhead{
+    padding-left: 0rem;
+  }
+  .banform {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    position: unset;
+    margin-top: 2rem;
+  }
+  
+}
+@media only screen and (max-width: 414px) {
+  .banhead{
+    padding-left: 0rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .banhead{
+    padding-left: 0rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .banhead h4 {
+    font-size: 2rem;
+   
+  }
+  .banhead{
+    padding-left: 0rem;
+  }
+}
+
+
+
+/* Media Query End */

@@ -1,0 +1,225 @@
+.maindiv {
+  background-image: url("../img/contact/contact.jpg");
+  background-repeat: no-repeat;
+  height: calc(100vh - 71px);
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.investeffect {
+  font-size: 13px;
+  color: #0055a5;
+  letter-spacing: 2px;
+  line-height: 13px;
+  text-transform: uppercase;
+  background: 0 0;
+  padding-left: 126px;
+  position: relative;
+  cursor: pointer;
+  font-family: "SackersGothicStdMedium";
+}
+
+.investeffect:before {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-size: 7px 12px;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: #0055a5;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: url("../img/footer/Group\ 2520.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.investeffect:after {
+  width: 30px;
+  height: 0;
+  content: "";
+  position: absolute;
+  left: 83px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-top: 1px solid #0055a5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.investeffect:hover {
+  padding-left: 116px;
+  color: #0055a5;
+}
+.investeffect:focus:before,
+.investeffect:hover:before {
+  -webkit-transform: translateY(-50%) scale(1.2);
+  transform: translateY(-50%) scale(1.2);
+  color: #0055a5;
+}
+.investeffect:focus:after,
+.investeffect:hover:after {
+  width: 20px;
+}
+.maindivHeading {
+  width: 100%;
+  height: 25rem;
+  margin-top: -7rem;
+  margin-right: 10rem;
+  background-color: #e9f4ff;
+  box-shadow: -6px 6px 8px;
+}
+.maindivHeading h3 {
+  font-family: "SackersGothicStdMedium";
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #0055a5;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.contactDetailsContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 4rem;
+}
+.subcontent {
+  font-family: "SackersGothicStdlight";
+  font-size: 2rem;
+  text-align: center;
+  color: #0055a5;
+}
+.imgcontent span img {
+  width: 2rem !important;
+}
+.para {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+.borderRight {
+  border-right: 1px solid #0055a5;
+}
+.contactbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.mainhow {
+  display: flex;
+  align-items: center;
+}
+.arrowbutton {
+  width: 50px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 40px;
+  background-color: #0055a5;
+  height: 1px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.arwimg {
+  display: flex;
+  align-items: center;
+}
+.arrowtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrowtext p {
+  font-family: "SackersGothicStdMedium";
+  font-size: 1rem;
+  color: #0055a5;
+  padding: 0;
+  margin: 0;
+  text-transform: lowercase;
+}
+/* media query start */
+@media (max-width: 1560px) {
+}
+@media (max-width: 1367px) {
+}
+@media (max-width: 1199px) {
+  .subcontent {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .maindiv{
+    padding-top: 3rem;
+  }
+  .para {
+    font-size: 0.9rem;
+  }
+  .contactDetailsContent {
+    height: auto;
+    margin-top: 1rem;
+  }
+  .maindivHeading {
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+      margin-right: 0rem;
+      box-shadow: 0px 0px 0px;
+    }
+    .maindiv {
+      background-image: none;
+      height: auto;
+    }
+  
+  .borderRight {
+    border-right: none;
+  }
+  .maindivHeading h3 {
+    font-size: 24px;
+  }
+  .subcontent {
+    font-size: 22px;
+  }
+}
+@media (max-width: 600px) {
+}
+@media (max-width: 414px) {
+  .maindivHeading h3 {
+    padding-bottom: 0rem;
+  }
+}
+@media (max-width: 375px) {
+  .maindivHeading h3 {
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .contactDetailsContent {
+
+    justify-content: unset;
+
+    height: unset;
+  }
+  .maindivHeading {
+
+    height: 27rem;
+} 
+}

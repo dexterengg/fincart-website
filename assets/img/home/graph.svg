@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="636.32" height="383.913" viewBox="0 0 636.32 383.913">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.079" y1="0.208" x2="0.957" y2="0.817" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#edf3f7"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2329" data-name="Group 2329" transform="translate(-670.378 -3910)">
+    <path id="Path_2183" data-name="Path 2183" d="M664.538,411.537a5686.312,5686.312,0,0,0-579.078,0V380.374H664.538Z" transform="translate(613.539 3853.754)" fill="#9ea9bd" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <g id="Group_2328" data-name="Group 2328" transform="translate(613.641 3852.205)">
+      <rect id="Rectangle_2660" data-name="Rectangle 2660" width="597.277" height="344.71" rx="7.153" transform="translate(76.359 57.795)" fill="url(#linear-gradient)"/>
+      <path id="Path_2153" data-name="Path 2153" d="M130.945,89.451V402.505H666.483a7.175,7.175,0,0,0,7.154-7.153V89.451Z" fill="#ebf7ff"/>
+      <g id="Group_2308" data-name="Group 2308">
+        <line id="Line_247" data-name="Line 247" x2="11.695" transform="translate(91.75 72.618)" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_248" data-name="Line 248" x2="11.695" transform="translate(91.75 75.368)" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_249" data-name="Line 249" x2="11.695" transform="translate(91.75 78.118)" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Group_2310" data-name="Group 2310">
+        <g id="Group_2309" data-name="Group 2309">
+          <path id="Path_2154" data-name="Path 2154" d="M632.839,78.831c.406,0,.728-.186.621-.826-.253-1.525-1.193-1.43-1.193-2.994v-.4a2.3,2.3,0,0,0-4.582,0v.4c0,1.564-.942,1.469-1.2,2.994-.105.64.217.826.623.826Z" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="Path_2155" data-name="Path 2155" d="M629.642,72.528V72a.332.332,0,0,1,.334-.334h0a.333.333,0,0,1,.334.334v.523" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="Path_2156" data-name="Path 2156" d="M631.3,78.831a1.329,1.329,0,0,1-2.658,0" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <circle id="Ellipse_224" data-name="Ellipse 224" cx="2.25" cy="2.25" r="2.25" transform="translate(630.31 70.577)" fill="#51d0e6"/>
+      </g>
+      <g id="Group_2311" data-name="Group 2311">
+        <path id="Path_2157" data-name="Path 2157" d="M657.521,75.552c0-1.969-1.875-3.563-4.187-3.563s-4.188,1.594-4.188,3.563a3.77,3.77,0,0,0,3.4,3.494,2,2,0,0,1-1.2,1.193,4.04,4.04,0,0,0,3.77-1.48A3.565,3.565,0,0,0,657.521,75.552Z" fill="none" stroke="#04193d" stroke-linejoin="round" stroke-width="0.5"/>
+        <circle id="Ellipse_225" data-name="Ellipse 225" cx="2.25" cy="2.25" r="2.25" transform="translate(654.521 70.458)" fill="#51d0e6"/>
+      </g>
+      <g id="Group_2312" data-name="Group 2312">
+        <circle id="Ellipse_226" data-name="Ellipse 226" cx="3.563" cy="3.563" r="3.563" transform="translate(603.632 71.806)" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="0.5"/>
+        <path id="Path_2158" data-name="Path 2158" d="M608.715,74.989a1.521,1.521,0,1,1-1.521-1.519A1.522,1.522,0,0,1,608.715,74.989Z" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="0.5"/>
+        <path id="Path_2159" data-name="Path 2159" d="M608.078,76.224a2.968,2.968,0,0,1,1.775,1.525" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="0.5"/>
+        <path id="Path_2160" data-name="Path 2160" d="M604.539,77.743a2.961,2.961,0,0,1,1.77-1.517" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="0.5"/>
+      </g>
+      <text id="Dashboard_Inbox_Send_Draft_Apps_Add_ons_Project_Notes_Favorit_Setting" data-name="Dashboard
+Inbox
+Send
+Draft
+Apps
+Add ons
+Project
+Notes
+Favorit
+Setting" transform="translate(91.75 166.998)" fill="#04193d" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Dashboard</tspan><tspan x="0" y="17">Inbox</tspan><tspan x="0" y="34">Send</tspan><tspan x="0" y="51">Draft</tspan><tspan x="0" y="68">Apps</tspan><tspan x="0" y="85">Add ons</tspan><tspan x="0" y="102">Project</tspan><tspan x="0" y="119">Notes</tspan><tspan x="0" y="136">Favorit</tspan><tspan x="0" y="153">Setting</tspan></text>
+      <text id="My_Profile" data-name="My Profile" transform="translate(91.75 136.873)" fill="#04193d" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">My Profile</tspan></text>
+      <line id="Line_250" data-name="Line 250" x2="542.691" transform="translate(130.945 89.451)" fill="none" stroke="#d5d1e8" stroke-linejoin="round" stroke-width="0.5"/>
+      <line id="Line_251" data-name="Line 251" x2="16.07" transform="translate(91.75 148.493)" fill="none" stroke="#d5d1e8" stroke-linejoin="round" stroke-width="0.5"/>
+      <g id="Group_2313" data-name="Group 2313">
+        <path id="Path_2161" data-name="Path 2161" d="M106,113.274a5.083,5.083,0,1,1,5.083-5.083A5.083,5.083,0,0,1,106,113.274a11.5,11.5,0,0,1,10.681,7.255,14.25,14.25,0,1,0-21.367-.006A11.5,11.5,0,0,1,106,113.274Z" fill="#cfecff"/>
+        <circle id="Ellipse_227" data-name="Ellipse 227" cx="14.25" cy="14.25" r="14.25" transform="translate(91.75 96.868)" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Path_2162" data-name="Path 2162" d="M95.307,120.537a11.5,11.5,0,0,1,21.382-.013" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="1"/>
+        <circle id="Ellipse_228" data-name="Ellipse 228" cx="5.083" cy="5.083" r="5.083" transform="translate(100.917 103.108)" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <line id="Line_252" data-name="Line 252" y2="344.71" transform="translate(130.945 57.795)" fill="none" stroke="#d5d1e8" stroke-linejoin="round" stroke-width="0.5"/>
+      <g id="Group_2314" data-name="Group 2314">
+        <path id="Path_2163" data-name="Path 2163" d="M156.069,74.864a3.8,3.8,0,1,1-3.8-3.8A3.8,3.8,0,0,1,156.069,74.864Z" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_253" data-name="Line 253" x2="3.037" y2="3.036" transform="translate(154.955 77.553)" fill="none" stroke="#04193d" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <text id="Search_something" data-name="Search something" transform="translate(166.16 77.382)" fill="#04193d" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Search something</tspan></text>
+      <rect id="Rectangle_2661" data-name="Rectangle 2661" width="361.481" height="77.099" transform="translate(148.464 103.108)" fill="#fff"/>
+      <g id="Group_2315" data-name="Group 2315">
+        <path id="Path_2164" data-name="Path 2164" d="M162.141,152.118c16.668,0,16.668,10.266,33.334,10.266s16.666-24.212,33.33-24.212,16.668,19.051,33.332,19.051,16.666-6.945,33.332-6.945,16.664,17.674,33.332,17.674,16.664-8.666,33.328-8.666,16.666,1,33.332,1,16.664-32.334,33.328-32.334,16.668,29.271,33.332,29.271,16.666-7.938,33.332-7.938v22.567H162.141Z" fill="#cfecff"/>
+        <path id="Path_2165" data-name="Path 2165" d="M162.141,152.118c16.668,0,16.668,10.266,33.334,10.266s16.666-24.212,33.33-24.212,16.668,19.051,33.332,19.051,16.666-6.945,33.332-6.945,16.664,17.674,33.332,17.674,16.664-8.666,33.328-8.666,16.666,1,33.332,1,16.664-32.334,33.328-32.334,16.668,29.271,33.332,29.271,16.666-7.938,33.332-7.938" fill="none" stroke="#0f73ee" stroke-linejoin="round" stroke-width="0.5"/>
+        <path id="Path_2166" data-name="Path 2166" d="M496.268,171.852H162.141v-43.9" fill="none" stroke="#0f73ee" stroke-linejoin="round" stroke-width="0.5"/>
+      </g>
+      <g id="Group_2316" data-name="Group 2316">
+        <rect id="Rectangle_2662" data-name="Rectangle 2662" width="133.076" height="77.099" transform="translate(524.445 103.108)" fill="#fff"/>
+        <rect id="Rectangle_2663" data-name="Rectangle 2663" width="35.125" height="10.436" rx="3" transform="translate(611.07 161.135)" fill="#0f73ee"/>
+        <text id="balance" transform="translate(531.695 118.006)" font-size="10.28" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">balance</tspan></text>
+        <text id="see_history" data-name="see history" transform="translate(615.536 167.749)" fill="#fff" font-size="5.063" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">see history</tspan></text>
+        <text id="_15.000" data-name="15.000" transform="translate(649.146 151.723)" fill="#0f73ee" font-size="25.722" font-family="SegoeUI, Segoe UI"><tspan x="-74.905" y="0">15.000</tspan></text>
+        <text id="_" data-name="$" transform="translate(547.787 151.723)" fill="#0f73ee" font-size="25.722" font-family="SegoeUI, Segoe UI"><tspan x="-13.866" y="0">$</tspan></text>
+      </g>
+      <text id="income" transform="translate(161.195 118.006)" font-size="10.28" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">income</tspan></text>
+      <rect id="Rectangle_2664" data-name="Rectangle 2664" width="160.303" height="83.5" transform="translate(148.464 188.399)" fill="#fff"/>
+      <rect id="Rectangle_2665" data-name="Rectangle 2665" width="160.302" height="83.5" transform="translate(322.467 188.399)" fill="#fff"/>
+      <g id="Group_2317" data-name="Group 2317">
+        <rect id="Rectangle_2666" data-name="Rectangle 2666" width="6.845" height="23.699" transform="translate(162.141 238.087)" fill="#cfecff"/>
+        <rect id="Rectangle_2667" data-name="Rectangle 2667" width="6.845" height="47.584" transform="translate(174.751 214.202)" fill="#cfecff"/>
+        <rect id="Rectangle_2668" data-name="Rectangle 2668" width="6.845" height="17.992" transform="translate(187.361 243.794)" fill="#cfecff"/>
+        <rect id="Rectangle_2669" data-name="Rectangle 2669" width="6.845" height="32.119" transform="translate(199.972 229.667)" fill="#cfecff"/>
+        <rect id="Rectangle_2670" data-name="Rectangle 2670" width="6.845" height="21.265" transform="translate(212.582 240.521)" fill="#cfecff"/>
+        <rect id="Rectangle_2671" data-name="Rectangle 2671" width="6.844" height="36.729" transform="translate(225.193 225.058)" fill="#cfecff"/>
+        <rect id="Rectangle_2672" data-name="Rectangle 2672" width="6.845" height="5.205" transform="translate(237.804 256.581)" fill="#cfecff"/>
+        <rect id="Rectangle_2673" data-name="Rectangle 2673" width="6.845" height="26.172" transform="translate(250.414 235.614)" fill="#cfecff"/>
+        <rect id="Rectangle_2674" data-name="Rectangle 2674" width="6.845" height="34.945" transform="translate(263.024 226.841)" fill="#cfecff"/>
+        <rect id="Rectangle_2675" data-name="Rectangle 2675" width="6.845" height="16.059" transform="translate(275.635 245.727)" fill="#cfecff"/>
+        <rect id="Rectangle_2676" data-name="Rectangle 2676" width="6.845" height="23.792" transform="translate(288.245 237.994)" fill="#cfecff"/>
+      </g>
+      <g id="Group_2318" data-name="Group 2318">
+        <path id="Path_2167" data-name="Path 2167" d="M371.121,240.926A18.818,18.818,0,1,1,352.3,222.107,18.817,18.817,0,0,1,371.121,240.926Z" fill="none" stroke="#cfecff" stroke-miterlimit="10" stroke-width="4"/>
+        <path id="Path_2168" data-name="Path 2168" d="M366.2,228.233a18.818,18.818,0,1,1-13.892-6.126" fill="none" stroke="#0f73ee" stroke-miterlimit="10" stroke-width="4"/>
+        <text id="_80" data-name="80" transform="translate(352.304 246.072)" fill="#0f73ee" font-size="13.918" font-family="SegoeUI, Segoe UI"><tspan x="-7.502" y="0">80</tspan></text>
+        <text id="_2" data-name="%" transform="translate(363.262 239.649)" fill="#0f73ee" font-size="5.775" font-family="SegoeUI, Segoe UI"><tspan x="-2.363" y="0">%</tspan></text>
+      </g>
+      <g id="Group_2319" data-name="Group 2319">
+        <circle id="Ellipse_229" data-name="Ellipse 229" cx="18.818" cy="18.818" r="18.818" transform="matrix(0.232, -0.973, 0.973, 0.232, 379.952, 254.874)" fill="none" stroke="#cfecff" stroke-miterlimit="10" stroke-width="4"/>
+        <path id="Path_2169" data-name="Path 2169" d="M421.435,240.926a18.818,18.818,0,1,1-18.818-18.819" fill="none" stroke="#0f73ee" stroke-miterlimit="10" stroke-width="4"/>
+        <text id="_75" data-name="75" transform="translate(402.618 246.072)" fill="#0f73ee" font-size="13.918" font-family="SegoeUI, Segoe UI"><tspan x="-7.502" y="0">75</tspan></text>
+        <text id="_3" data-name="%" transform="translate(413.576 239.649)" fill="#0f73ee" font-size="5.775" font-family="SegoeUI, Segoe UI"><tspan x="-2.363" y="0">%</tspan></text>
+      </g>
+      <g id="Group_2320" data-name="Group 2320">
+        <circle id="Ellipse_230" data-name="Ellipse 230" cx="18.818" cy="18.818" r="18.818" transform="translate(426.352 242.254) rotate(-47.86)" fill="none" stroke="#cfecff" stroke-miterlimit="10" stroke-width="4"/>
+        <path id="Path_2170" data-name="Path 2170" d="M452.932,259.744a18.818,18.818,0,1,1,0-37.637" fill="none" stroke="#0f73ee" stroke-miterlimit="10" stroke-width="4"/>
+        <text id="_50" data-name="50" transform="translate(452.931 246.072)" fill="#0f73ee" font-size="13.918" font-family="SegoeUI, Segoe UI"><tspan x="-7.502" y="0">50</tspan></text>
+        <text id="_4" data-name="%" transform="translate(463.889 239.649)" fill="#0f73ee" font-size="5.775" font-family="SegoeUI, Segoe UI"><tspan x="-2.363" y="0">%</tspan></text>
+      </g>
+      <text id="expense" transform="translate(333.486 204.174)" font-size="10.28" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">expense</tspan></text>
+      <text id="growth" transform="translate(162.141 204.174)" font-size="10.28" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">growth</tspan></text>
+      <g id="Group_2324" data-name="Group 2324">
+        <rect id="Rectangle_2677" data-name="Rectangle 2677" width="248.322" height="104.166" transform="translate(148.464 280.399)" fill="#fff"/>
+        <text id="invoices" transform="translate(162.141 294.507)" font-size="10.28" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">invoices</tspan></text>
+        <text id="Invoices_01_November_1245_s_0_Invoices_02_November_1123_f_0_Invoices_03_November_1298_a_0_Invoices_04_November_1247_s_0_Invoices_05_November_1333_c_0_Invoices_06_November_2134_v_0" data-name="Invoices 01/November/1245/s/0
+Invoices 02/November/1123/f/0
+Invoices 03/November/1298/a/0
+Invoices 04/November/1247/s/0
+Invoices 05/November/1333/c/0
+Invoices 06/November/2134/v/0" transform="translate(169.098 311.658)" fill="#262042" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Invoices 01/November/1245/s/0</tspan><tspan x="0" y="12">Invoices 02/November/1123/f/0</tspan><tspan x="0" y="24">Invoices 03/November/1298/a/0</tspan><tspan x="0" y="36">Invoices 04/November/1247/s/0</tspan><tspan x="0" y="48">Invoices 05/November/1333/c/0</tspan><tspan x="0" y="60">Invoices 06/November/2134/v/0</tspan></text>
+        <g id="Group_2322" data-name="Group 2322">
+          <g id="Group_2321" data-name="Group 2321">
+            <circle id="Ellipse_231" data-name="Ellipse 231" cx="1.125" cy="1.125" r="1.125" transform="translate(162.141 308.176)" fill="#0f73ee"/>
+            <path id="Path_2171" data-name="Path 2171" d="M164.391,321.418a1.125,1.125,0,1,1-1.125-1.125A1.124,1.124,0,0,1,164.391,321.418Z" fill="#0f73ee"/>
+            <circle id="Ellipse_232" data-name="Ellipse 232" cx="1.125" cy="1.125" r="1.125" transform="translate(162.141 332.409)" fill="#0f73ee"/>
+            <circle id="Ellipse_233" data-name="Ellipse 233" cx="1.125" cy="1.125" r="1.125" transform="translate(162.141 344.526)" fill="#0f73ee"/>
+            <path id="Path_2172" data-name="Path 2172" d="M164.391,357.767a1.125,1.125,0,1,1-1.125-1.123A1.126,1.126,0,0,1,164.391,357.767Z" fill="#0f73ee"/>
+            <circle id="Ellipse_234" data-name="Ellipse 234" cx="1.125" cy="1.125" r="1.125" transform="translate(162.141 368.76)" fill="#0f73ee"/>
+          </g>
+        </g>
+        <g id="Group_2323" data-name="Group 2323">
+          <path id="Path_2173" data-name="Path 2173" d="M382.735,309.3a3.414,3.414,0,0,1-3.414,3.413H364.063a3.414,3.414,0,0,1-3.414-3.413h0a3.414,3.414,0,0,1,3.414-3.413h15.258a3.414,3.414,0,0,1,3.414,3.413Z" fill="#0f73ee"/>
+          <path id="Path_2174" data-name="Path 2174" d="M382.735,321.417a3.415,3.415,0,0,1-3.415,3.414H364.063a3.415,3.415,0,0,1-3.415-3.414h0a3.414,3.414,0,0,1,3.415-3.412H379.32a3.415,3.415,0,0,1,3.415,3.412Z" fill="#0f73ee"/>
+          <path id="Path_2175" data-name="Path 2175" d="M382.735,333.535a3.413,3.413,0,0,1-3.414,3.412H364.063a3.413,3.413,0,0,1-3.414-3.412h0a3.415,3.415,0,0,1,3.414-3.414h15.258a3.415,3.415,0,0,1,3.414,3.414Z" fill="#0f73ee"/>
+          <path id="Path_2176" data-name="Path 2176" d="M382.735,345.65a3.415,3.415,0,0,1-3.414,3.415H364.063a3.416,3.416,0,0,1-3.414-3.415h0a3.415,3.415,0,0,1,3.414-3.412h15.258a3.415,3.415,0,0,1,3.414,3.412Z" fill="#0f73ee"/>
+          <path id="Path_2177" data-name="Path 2177" d="M382.735,357.769a3.414,3.414,0,0,1-3.414,3.412H364.063a3.414,3.414,0,0,1-3.414-3.412h0a3.416,3.416,0,0,1,3.414-3.415h15.258a3.415,3.415,0,0,1,3.414,3.415Z" fill="#0f73ee"/>
+          <path id="Path_2178" data-name="Path 2178" d="M382.735,369.885a3.414,3.414,0,0,1-3.414,3.413H364.063a3.414,3.414,0,0,1-3.414-3.413h0a3.414,3.414,0,0,1,3.414-3.413h15.258a3.414,3.414,0,0,1,3.414,3.413Z" fill="#0f73ee"/>
+          <text id="PAID" transform="translate(371.692 310.529)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-3.42" y="0">PAID</tspan></text>
+          <text id="PAID-2" data-name="PAID" transform="translate(371.692 322.687)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-3.42" y="0">PAID</tspan></text>
+          <text id="PAID-3" data-name="PAID" transform="translate(371.692 334.845)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-3.42" y="0">PAID</tspan></text>
+          <text id="PAID-4" data-name="PAID" transform="translate(371.692 347.002)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-3.42" y="0">PAID</tspan></text>
+          <text id="PAID-5" data-name="PAID" transform="translate(371.692 359.161)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-3.42" y="0">PAID</tspan></text>
+          <text id="PAID-6" data-name="PAID" transform="translate(371.692 371.318)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-3.42" y="0">PAID</tspan></text>
+        </g>
+      </g>
+      <g id="Group_2326" data-name="Group 2326">
+        <rect id="Rectangle_2678" data-name="Rectangle 2678" width="160.303" height="83.5" transform="translate(496.469 188.399)" fill="#fff"/>
+        <text id="most_viewed_item" data-name="most viewed item" transform="translate(507.909 204.174)" font-size="10.28" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">most viewed item</tspan></text>
+        <text id="item_01_item_02_item_03_item_04" data-name="item 01
+item 02
+item 03
+item 04" transform="translate(514.959 219.992)" fill="#262042" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">item 01</tspan><tspan x="0" y="12">item 02</tspan><tspan x="0" y="24">item 03</tspan><tspan x="0" y="36">item 04</tspan></text>
+        <g id="Group_2325" data-name="Group 2325">
+          <path id="Path_2179" data-name="Path 2179" d="M644.148,217.047a3.414,3.414,0,0,1-3.414,3.413H625.477a3.414,3.414,0,0,1-3.415-3.413h0a3.415,3.415,0,0,1,3.415-3.413h15.257a3.414,3.414,0,0,1,3.414,3.413Z" fill="#0f73ee"/>
+          <path id="Path_2180" data-name="Path 2180" d="M644.148,229.163a3.416,3.416,0,0,1-3.415,3.414H625.477a3.415,3.415,0,0,1-3.416-3.414h0a3.415,3.415,0,0,1,3.416-3.412h15.256a3.415,3.415,0,0,1,3.415,3.412Z" fill="#0f73ee"/>
+          <path id="Path_2181" data-name="Path 2181" d="M644.148,241.281a3.413,3.413,0,0,1-3.414,3.412H625.477a3.413,3.413,0,0,1-3.415-3.412h0a3.415,3.415,0,0,1,3.415-3.414h15.257a3.415,3.415,0,0,1,3.414,3.414Z" fill="#0f73ee"/>
+          <path id="Path_2182" data-name="Path 2182" d="M644.148,253.4a3.414,3.414,0,0,1-3.414,3.413H625.477a3.415,3.415,0,0,1-3.415-3.413h0a3.415,3.415,0,0,1,3.415-3.413h15.257a3.415,3.415,0,0,1,3.414,3.413Z" fill="#0f73ee"/>
+          <text id="BOOST" transform="translate(633.105 218.275)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-5.098" y="0">BOOST</tspan></text>
+          <text id="BOOST-2" data-name="BOOST" transform="translate(633.105 230.433)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-5.098" y="0">BOOST</tspan></text>
+          <text id="BOOST-3" data-name="BOOST" transform="translate(633.105 242.591)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-5.098" y="0">BOOST</tspan></text>
+          <text id="BOOST-4" data-name="BOOST" transform="translate(633.105 254.749)" fill="#fff" font-size="3.251" font-family="SegoeUI, Segoe UI"><tspan x="-5.098" y="0">BOOST</tspan></text>
+        </g>
+      </g>
+      <g id="Group_2327" data-name="Group 2327">
+        <rect id="Rectangle_2679" data-name="Rectangle 2679" width="248.32" height="104.166" transform="translate(408.451 280.399)" fill="#fff"/>
+        <text id="message" transform="translate(419.504 294.507)" font-size="10.28" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">message</tspan></text>
+        <text id="Johnson_Mark_invoice_November_Status_Update_:_Success_Adelia_Nadia_Project_Assigment_Presentation_Material_Amelia_Laura_Meeting_Schedule_Project_:_interior_design_Johnson_Mark_invoice_November_Status_Update_:_Success_Adelia_Nadia_Pro" data-name="Johnson, Mark	[ invoice November ]	Status Update : Success
+Adelia, Nadia	[ Project Assigment ]	Presentation Material
+Amelia, Laura	[ Meeting Schedule ]	Project : interior design
+Johnson, Mark	[ invoice November ]	Status Update : Success
+Adelia, Nadia	[ Pro" transform="translate(419.504 311.658)" fill="#0f73ee" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Johnson, Mark	</tspan><tspan y="0" fill="#000">[ invoice November ]	Status Update : Success</tspan><tspan x="0" y="12">Adelia, Nadia	</tspan><tspan y="12" fill="#000">[ Project Assigment ]	Presentation Material</tspan><tspan x="0" y="24">Amelia, Laura	</tspan><tspan y="24" fill="#000">[ Meeting Schedule ]	Project : interior design</tspan><tspan x="0" y="36">Johnson, Mark	</tspan><tspan y="36" fill="#000">[ invoice November ]	Status Update : Success</tspan><tspan x="0" y="48">Adelia, Nadia	</tspan><tspan y="48" fill="#000">[ Project Assigment ]	Presentation Material</tspan><tspan x="0" y="60">Amelia, Laura	</tspan><tspan y="60" fill="#000">[ Meeting Schedule ]	Project : interior design</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

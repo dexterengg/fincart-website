@@ -1,0 +1,43 @@
+
+.outerAdvanta {
+    background-image: url("../img/home/Mask\ Group\ 7@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+  
+  }
+  .Faqhead {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    font-family: "SackersGothicStdMedium" !important;
+    color: #0055A5;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .outerAdvanta .color {
+    position: relative;
+  }
+  .outerAdvanta .color {
+    top: 49%;
+    left: -31%;
+    width: 80%;
+  }
+  .InnearHome {
+    width: 100%;
+    background-color:#FAFCFF;
+    margin-left: 15rem;
+    margin-top: 3rem;
+  }
+
+
+    

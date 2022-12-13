@@ -1,0 +1,51 @@
+.mainheading h3{
+    font-family: "SackersGothicStdMedium";
+    color: #0055a5;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+
+}
+.mainheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainheading p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: #707070;
+    width: 90%;
+}
+.maindiv{
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* media query start */
+@media (max-width: 767px) {
+    .mainheading h3{
+ 
+        font-size: 1.5rem;
+     text-align: center;
+    
+    
+    }
+    .maindiv{
+        padding-bottom: 0rem;
+        padding-top: 2rem;
+   
+    }
+}
+@media (max-width: 991px) {
+.mainheading{
+    display: unset;
+    justify-content: unset;
+    align-items: unset;
+    flex-direction: unset;
+}
+}
+
+/* media query end */
